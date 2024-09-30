@@ -1,0 +1,211 @@
+{
+  "Common": {
+    "Ack": {
+      "id": 0,
+      "payload": "Ack"
+    },
+    "24VSupplyStats": {
+      "id": 1,
+      "payload": "Device24VSupplyStats"
+    },
+    "Pong": {
+      "id": 99
+    }
+    "Hello": {
+      "id": 100
+    },
+    "Ping": {
+      "id": 199
+    }
+  },
+  "PT": {
+    "Values": {
+      "id": 2,
+      "payload": "PTValues"
+    },
+    "CalibrationSettings": {
+      "id": 3,
+      "payload": "PTCalibrationSettings"
+    },
+    "AutomationData": {
+      "id": 4,
+      "payload": "PTAutomationData"
+    },
+  },
+  "LC": {
+    "Values": {
+      "id": 2,
+      "payload": "LCValues"
+    },
+    "CalibrationSettings": {
+      "id": 3,
+      "payload": "LCCalibrationSettings"
+    },
+  },
+  "PTLC": {
+    "ZeroChannel": {
+      "id": 101,
+      "payload": "Channel"
+    },
+    "SetSecondPoint": {
+      "id": 102,
+      "payload": "ChannelPoint"
+    },
+    "RequestCalibrationSettings": {
+      "id": 103
+    },
+    "ResetCalibration": {
+      "id": 104,
+      "payload": "Channel"
+    },
+  },
+  "TC": {
+    "Values": {
+      "id": 2,
+      "payload": "TCValues"
+    },
+    "ColdJunctionTemperatures": {
+      "id": 3,
+      "payload": "TCColdJunctionTemperatures"
+    },
+    "Faults": {
+      "id": 4,
+      "payload": "TCFaults"
+    }
+  },
+  "AC": {
+    "ActuatorStates": {
+      "id": 2,
+      "payload": "ACActuatorStates"
+    },
+    "ActuatorContinuities": {
+      "id": 3,
+      "payload": "ACActuatorContinuities"
+    },
+    "ActuatorCurrents": {
+      "id": 4,
+      "payload": "ACActuatorCurrents"
+    },
+    "AutoventPressures": {
+      "id": 5,
+      "payload": "ACAutoventPressures"
+    },
+    "Potentiometers": {
+      "id": 6,
+      "payload": "Potentiometers"
+    },
+    "AutomationInfo": {
+      "id": 7,
+      "payload": "ACAutomationInfo"
+    },
+    "GemsDutyCycle": { // ???
+      "id": 8
+    }
+    "Launch": {
+      "id": 149,
+      "device": 1, // ???
+      "payload": "Launch"
+    }
+  },
+  "CapFill": {
+    "Capacitance": {
+      "id": 1,
+      "payload": "CapFillCapacitance"
+    }
+  },
+  "EReg": {
+    "PressureTelemetry": {
+      "id": 1,
+      "payload": "ERegPressureTelemetry"
+    },
+    "MotorTelemetry": {
+      "id": 2,
+      "payload": "ERegMotorTelemetry"
+    },
+    "Config": {
+      "id": 3,
+      "payload": "ERegConfig"
+    },
+    "Diagnostic": {
+      "id": 4,
+      "payload": "ERegDiagnostic"
+    },
+    "StateTransitionError": {
+      "id": 5,
+      "payload": "ERegStateTransitionError"
+    },
+    "FlowState": {
+      "id": 6,
+      "payload": "ERegFlowState"
+    },
+    "LimitSwitch": {
+      "id": 7,
+      "payload": "ERegLimitSwitch"
+    },
+    "PhaseCurrents": {
+      "id": 8,
+      "payload": "ERegPhaseCurrents"
+    },
+    "Temperatures": {
+      "id": 9,
+      "payload": "ERegTemperatures"
+    },
+    "OvercurrentTrigger": {
+      "id": 10,
+      "payload": "ERegOvercurrentTrigger"
+    },
+    "CalibrationSettings": {
+      "id": 11,
+      "payload": "ERegPTCalibrationSettings"
+    },
+    "BeginFlow": {
+      "id": 200,
+      "payload": "Launch"
+    },
+    "StopFlow": {
+      "id": 201,
+    },
+    "PartialOpen": {
+      "id": 202,
+      "payload": "ERegPartialOpen"
+    },
+    "StaticPress": {
+      "id": 203
+    },
+    "RunCheckoutSequence": {
+      "id": 204
+    },
+    "Zero": {
+      "id": 205
+    },
+    "SetP": {
+      "id": 206,
+      "payload": "ERegSet"
+    },
+    "SetI": {
+      "id": 207,
+      "payload": "ERegSet"
+    },
+    "SetD": {
+      "id": 208,
+      "payload": "ERegSet"
+    },
+    "ActuateMainValve": {
+      "id": 210,
+    }
+    "FirstPointCalibration": {
+      "id": 101,
+      "payload": "ChannelPoint"
+    },
+    "SecondPointCalibration": {
+      "id": 102,
+      "payload": "ChannelPoint"
+    },
+    "RequestCalibrationSettings": {
+      "id": 103,
+    },
+    "ResetCalibration": {
+      "id': 104,
+    }
+  }
+}
