@@ -10,13 +10,13 @@
     },
     "Pong": {
       "id": 99
-    }
+    }, 
     "Hello": {
       "id": 100
-    },
+    }, 
     "Ping": {
       "id": 199
-    }
+    } 
   },
   "PT": {
     "Values": {
@@ -100,12 +100,12 @@
     },
     "GemsDutyCycle": { // ???
       "id": 8
-    }
+    }, 
     "Launch": {
       "id": 149,
       "device": 1, // ???
       "payload": "Launch"
-    }
+    } 
   },
   "CapFill": {
     "Capacitance": {
@@ -164,7 +164,7 @@
     },
     "StopFlow": {
       "id": 201,
-    },
+    }, 
     "PartialOpen": {
       "id": 202,
       "payload": "ERegPartialOpen"
@@ -192,7 +192,7 @@
     },
     "ActuateMainValve": {
       "id": 210,
-    }
+    }, 
     "FirstPointCalibration": {
       "id": 101,
       "payload": "ChannelPoint"
@@ -205,7 +205,7 @@
       "id": 103,
     },
     "ResetCalibration": {
-      "id': 104,
-    }
+      "id": 104,
+    } // Incorrect quote here, should be double quotes
   }
 }
