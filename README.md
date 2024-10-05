@@ -1,4 +1,4 @@
-# univeralproto
+# universalproto
 
 ## spec.json5
 
