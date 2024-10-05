@@ -19,7 +19,7 @@
   "Ack": [
     { "array": 40, "type": "u8", "symbol": "protoVersion" }
   ],
-  "24VSupplyStats": [
+  "Device24VSupplyStats": [
     { "type": "f32", "symbol": "supply24Voltage" },
     { "type": "f32", "symbol": "supply24Current" },
     { "type": "f32", "symbol": "supply24Power" }
@@ -111,14 +111,14 @@
     { "type": "f32", "symbol": "_reserved0" }
   ],
   "ERegConfig": [
-    { "type": "f32", "pressureSetpointConfig" },
-    { "type": "f32", "pOuterNominal" },
-    { "type": "f32", "iOuterNominal" },
-    { "type": "f32", "dOuterNominal" },
-    { "type": "f32", "pInner" },
-    { "type": "f32", "iInner" },
-    { "type": "f32", "dInner" },
-    { "type": "f32", "flowDurationSeconds" }
+    { "type": "f32", "symbol":"pressureSetpointConfig" },
+    { "type": "f32", "symbol":"pOuterNominal" },
+    { "type": "f32", "symbol":"iOuterNominal" },
+    { "type": "f32", "symbol":"dOuterNominal" },
+    { "type": "f32", "symbol":"pInner" },
+    { "type": "f32", "symbol":"iInner" },
+    { "type": "f32", "symbol":"dInner" },
+    { "type": "f32", "symbol":"flowDurationSeconds" }
   ],
   "ERegDiagnostic": [
     { "type": "u8", "symbol": "motorDirPass" },

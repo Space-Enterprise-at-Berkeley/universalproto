@@ -92,7 +92,7 @@
     },
     "Potentiometers": {
       "id": 6,
-      "payload": "Potentiometers"
+      "payload": "ACPotentiometers"
     },
     "AutomationInfo": {
       "id": 7,
