@@ -1,0 +1,327 @@
+[
+  {
+    "id": 0,
+    "name": "Ack",
+    "payload": "Ack",
+    "reads": "all",
+    "writes": "all"
+  },
+  {
+    "id": 1,
+    "name": "24VSupplyStats",
+    "payload": "24VSupplyStats",
+    "reads": [ "GD*" ],
+    "writes": [ "PT*", "TC*", "LC*", "AC*" ]
+  },
+  {
+    "id": 1,
+    "name": "Capacitance",
+    "payload": "CFCapacitance",
+    "reads": [ "GD*" ],
+    "writes": [ "CF*" ]
+  },
+  {
+    "id": 1,
+    "name": "PressureTelemetry",
+    "payload": "ERegPressureTelemetry",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 2,
+    "name": "Values",
+    "payload": "PTValues",
+    "reads": [ "GD*" ],
+    "writes": [ "PT*" ]
+  },
+  {
+    "id": 2,
+    "name": "Values",
+    "payload": "LCValues",
+    "reads": [ "GD*" ],
+    "writes": [ "LC*" ]
+  },
+  {
+    "id": 2,
+    "name": "Values",
+    "payload": "TCValues",
+    "reads": [ "GD*" ],
+    "writes": [ "TC*" ]
+  },
+  {
+    "id": 2,
+    "name": "ActuatorStates",
+    "payload": "ACActuatorStates",
+    "reads": [ "GD*" ],
+    "writes": [ "AC*" ]
+  },
+  {
+    "id": 2,
+    "name": "MotorTelemetry",
+    "payload": "ERegMotorTelemetry",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 3,
+    "name": "CalibrationSettings",
+    "payload": "PTCalibrationSettings",
+    "reads": [ "GD*" ],
+    "writes": [ "PT*" ]
+  },
+  {
+    "id": 3,
+    "name": "CalibrationSettings",
+    "payload": "LCCalibrationSettings",
+    "reads": [ "GD*" ],
+    "writes": [ "LC*" ]
+  },
+  {
+    "id": 3,
+    "name": "CalibrationSettings",
+    "payload": "LCCalibrationSettings",
+    "reads": [ "GD*" ],
+    "writes": [ "LC*" ]
+  },
+  {
+    "id": 3,
+    "name": "ColdJunctionTemperatures",
+    "payload": "TCColdJunctionTemperatures",
+    "reads": [ "GD*" ],
+    "writes": [ "TC*" ]
+  },
+  {
+    "id": 3,
+    "name": "ActuatorContinuities",
+    "payload": "ACActuatorContinuities",
+    "reads": [ "GD*" ],
+    "writes": [ "TC*" ]
+  },
+  {
+    "id": 3,
+    "name": "Config",
+    "payload": "ERegConfig",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 4,
+    "name": "AutomationData",
+    "payload": "PTAutomationData",
+    "reads": [ "GD*" ],
+    "writes": [ "PT*" ]
+  },
+  {
+    "id": 4,
+    "name": "Faults",
+    "payload": "TCFaults",
+    "reads": [ "GD*" ],
+    "writes": [ "TC*" ]
+  },
+  {
+    "id": 4,
+    "name": "ActuatorCurrents",
+    "payload": "ACActuatorCurrents",
+    "reads": [ "GD*" ],
+    "writes": [ "AC*" ]
+  },
+  {
+    "id": 4,
+    "name": "Diagnostic",
+    "payload": "ERegDiagnostic",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 5,
+    "name": "AutoventPressures",
+    "payload": "ACAutoventPressures",
+    "reads": [ "GD*" ],
+    "writes": [ "AC*" ]
+  },
+  {
+    "id": 5,
+    "name": "StateTransitionError",
+    "payload": "ERegStateTransitionError",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 6,
+    "name": "Potentiometers",
+    "payload": "ACPotentiometers",
+    "reads": [ "GD*" ],
+    "writes": [ "AC*" ]
+  },
+  {
+    "id": 6,
+    "name": "FlowState",
+    "payload": "ERegFlowState",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 7,
+    "name": "AutomationInfo",
+    "payload": "ACAutomationInfo",
+    "reads": [ "GD*" ],
+    "writes": [ "AC*" ]
+  },
+  {
+    "id": 7,
+    "name": "LimitSwitch",
+    "payload": "ERegLimitSwitch",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 8,
+    "name": "GemDutyCycle",
+    "payload": null,
+    "reads": [ "GD*" ],
+    "writes": [ "AC*" ]
+  },
+  {
+    "id": 8,
+    "name": "PhaseCurrents",
+    "payload": "ERegPhaseCurrents",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 9,
+    "name": "Temperatures",
+    "payload": "ERegTemperatures",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 10,
+    "name": "OvercurrentTrigger",
+    "payload": "ERegOvercurrentTrigger",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 11,
+    "name": "CalibrationSettings",
+    "payload": "ERegCalibrationSettings",
+    "reads": [ "GD*" ],
+    "writes": [ "EReg*" ]
+  },
+  {
+    "id": 100,
+    "name": "ZeroChannel",
+    "payload": "Channel",
+    "reads": [ "PT*", "LC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 101,
+    "name": "SecondPoint",
+    "payload": "ChannelPoint",
+    "reads": [ "PT*", "LC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 100,
+    "name": "FirstPointCalibration",
+    "payload": "ChannelPoint",
+    "reads": [ "PT*", "LC*", "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 101,
+    "name": "SecondPointCalibration",
+    "payload": "ChannelPoint",
+    "reads": [ "PT*", "LC*", "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 102,
+    "name": "RequestCalibrationSettings",
+    "payload": null,
+    "reads": [ "PT*", "LC*", "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 103,
+    "name": "ResetCalibration",
+    "payload": "Channel",
+    "reads": [ "PT*", "LC*", "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 149,
+    "name": "Launch",
+    "payload": "Launch",
+    "reads": [ "AC_1" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 200,
+    "name": "BeginFlow",
+    "payload": "Launch",
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 201,
+    "name": "StopFlow",
+    "payload": null,
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 202,
+    "name": "PartialOpen",
+    "payload": "ERegPartialOpen",
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 203,
+    "name": "StaticPress",
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 204,
+    "name": "RunCheckoutSequence",
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 205,
+    "name": "Zero",
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 206,
+    "name": "SetP",
+    "payload": "ERegSet",
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 207,
+    "name": "SetI",
+    "payload": "ERegSet",
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 208,
+    "name": "SetD",
+    "payload": "ERegSet",
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 210,
+    "name": "ActuateMainValve",
+    "reads": [ "EReg*" ],
+    "writes": [ "GD*" ]
+  }
+]

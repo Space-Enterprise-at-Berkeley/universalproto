@@ -1,34 +1,26 @@
 # univeralproto
 
-## spec.json5
+## config.json5
 
-Where everything comes together.
+Defines specific devices, system modes, error codes, etc.
 
-## types.json5
+Also included: overall configuration of sensors and their channels. This should probably
+be a separate configuration independent of the spec since different setups have different
+channel configs (?)
 
-Defines enums and structure types with a label to be linked in packets.json5.
+## types.json
 
-## packets.json5
+Defines composite types to be used as payload specifications in packets.json.
 
-Defines messages, their symbol(s), IDs, and links (where necessary) with 
-the appropriate payload structure defined in types.json.
+## packets.json
 
-This is current packet ID range provisioning:
-
-| Range      | Purpose |
-| ---------- | --------|
-| `   0- 99` | Sensor readings, command results, or generally anything the firmware reports. |
-| ` 100-199` | Commands issued to the boards. |
-| ` 200-255` | Reserved. |
-
+Defines packets.
 
 ## rfc/todo
 
-- Reserving packet ID 100 for handshake requests
-- SecondPoint -> SetSecondPoint
-- Device specific packets?
-- RFC: encode device info into packet ID
-  x x x x x x x x
-  ^~~~~~~ ^~~~~~~
-  class   id
-
+- Make device mnemonics 2 letters for uniformity?
+- Keep types.json where composite types can be defined to keep packets.json a bit more polished.
+- Change "id" to "tag" or something? Since currently IP + id can be interpreted as the actual "id". So id = IP + tag?
+- Move error packet "id"s (StateTransitionError) to a dedicated region?
+- Hotswapped AC RBV???
+- How should channel mappings be configured?

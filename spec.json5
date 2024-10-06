@@ -1,8 +1,0 @@
-{
-  "PT": [ "Common", "PT", "PTLC" ],
-  "LC": [ "Common", "LC", "PTLC" ], 
-  "AC": [ "Common", "AC" ],
-  "TC": [ "Common", "TC" ],
-  "CapFil": [ "Common", "CapFill" ],
-  "EReg": [ "Common", "EReg" ],
-}

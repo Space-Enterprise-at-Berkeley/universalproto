@@ -1,0 +1,292 @@
+{
+  "deviceIds": {
+    "AC_1": 11,
+    "AC_2": 12,
+    "AC_3": 13,
+    "LC_1": 21,
+    "LC_2": 22,
+    "PT_1": 31,
+    "PT_2": 32,
+    "PT_3": 33,
+    "PT_HAD": 34,
+    "CF_NOS": 42,
+    "CF_IPA": 43,
+    "TC_1": 51,
+    "TC_2": 52,
+    "TC_3": 53,
+    "ER_IPA": 71,
+    "GD_Sean": 100,
+    "GD_Alex_Nava": 101,
+    "GD_Claire": 137,
+    "GD_Sebastian": 140,
+    "GD_Nihal": 143,
+    "GD_Alex_Henderson": 150,
+    "GD_Suhrith": 151,
+    "GD_Bhuvan": 169,
+    "GD_Zander": 172,
+    "GD_Raul_H": 173,
+    "GD_Andy_Cate": 194
+  },
+  "systemModes": {
+    "Launch": 0,
+    "Hotfire": 1,
+    "Coldflow": 2,
+    "Coldflow_with_igniter": 3,
+    "gasflow": 4,
+    "waterflow": 5
+  },
+  /*
+   multiline comment.
+   */
+  "errorCodes": {
+    "NOS_Overpressure": 1,
+    "IPA_Overpressure": 2,
+    "Engine_Overtemp": 3, // TC abort
+    "Failed_Ignition": 4, // LC Underthrust
+    "Igniter_No_Continuity": 5,
+    "Breakwire_No_Continuity": 6,
+    "Breakwire_No_Burnt": 7,
+    "No_Dashboard_Comms": 8,
+    "Propellant_RunOut": 9 // LC Underthrust
+  },
+  "AC_1": [
+    {
+      "channel": 1,
+      "control": "AC_BREAKWIRE"
+    },
+    {
+      "channel": 3,
+      "control": "AC_ARM"
+    },
+    {
+      "channel": 4,
+      "control": "AC_NOS_MAIN"
+    },
+    {
+      "channel": 5,
+      "control": "AC_IPA_MAIN"
+    },
+    {
+      "channel": 7,
+      "control": "AC_IGNITER"
+    }
+  ],
+  "AC_2": [
+    {
+      "channel": 0,
+      "control": "AC_NOS_GEMS"
+    },
+    {
+      "channel": 1,
+      "control": "AC_NOS_FILL_RBV"
+    },
+    {
+      "channel": 3,
+      "control": "AC_NOS_LINE_VENT"
+    },
+    {
+      "channel": 4,
+      "control": "AC_NOS_EMERGENCY_VENT"
+    },
+    {
+      "channel": 5,
+      "control": "AC_NOS_DRAIN"
+    },
+    {
+      "channel": 6,
+      "control": "AC_NOS_SLOW_VENT"
+    },
+    {
+      "channel": 7,
+      "control": "???"
+    }
+  ],
+  "AC_3": [
+    {
+      "channel": 0,
+      "control": "AC_IPA_GEMS"
+    },
+    {
+      "channel": 2,
+      "control": "AC_IPA_SLOW_VENT"
+    },
+    {
+      "channel": 4,
+      "control": "AC_IPA_EMERGENCY_VENT"
+    },
+    {
+      "channel": 5,
+      "control": "AC_IPA_DRAIN"
+    },
+    {
+      "channel": 6,
+      "control": "AC_IPA_PRESS_FLOW"
+    }
+  ],
+  "PT_1": [
+    {
+      "channel": 0,
+      "measure": "PT_NOS_TANK"
+    },
+    {
+      "channel": 1,
+      "measure": "PT_NOS_FILL_LINE"
+    },
+    {
+      "channel": 2,
+      "measure": "PT_MAIN_VALVE"
+    },
+    {
+      "channel": 3,
+      "measure": "PT_SOLENOID_PANEL"
+    },
+    {
+      "channel": 4,
+      "measure": "PT_IPA_TANK"
+    },
+    {
+      "channel": 6,
+      "measure": "PT_NOS_FILL_LINE_NEW"
+    }
+  ],
+  "PT_2": [
+    {
+      "channel": 0,
+      "measure": "PT_NOS_INJECTOR"
+    },
+    {
+      "channel": 2,
+      "measure": "PT_ENGINE_0" // chamber pt 0
+    },
+    {
+      "channel": 3,
+      "measure": "PT_ENGINE_1" // manifold
+    },
+    {
+      "channel": 4,
+      "measure": "PT_ENGINE_2"
+    },
+    {
+      "channel": 5,
+      "measure": "PT_ENGINE_3"
+    },
+    {
+      "channel": 6,
+      "measure": "PT_ENGINE_4"
+    },
+    {
+      "channel": 7,
+      "measure": "PT_ENGINE_5" // chamber pt 1
+    }
+  ],
+  "PT_3": [
+    {
+      "channel": 0,
+      "measure": "PT_IPA_INJECTOR" // formerley engine 6
+    },
+    {
+      "channel": 1,
+      "measure": "PT_ENGINE_7"
+    },
+    {
+      "channel": 2,
+      "measure": "PT_ENGINE_8"
+    },
+    {
+      "channel": 3,
+      "measure": "PT_ENGINE_9"
+    },
+    {
+      "channel": 4,
+      "measure": "PT_ENGINE_6" // formerley engine 10
+    }
+  ],
+  "TC_1": [
+    {
+      "channel": 1,
+      "measure": "TC_NOS_TANK"
+    },
+    {
+      "channel": 2,
+      "measure": "TC_NOS_INJECTOR"
+    },
+    {
+      "channel": 3,
+      "measure": "TC_IPA_INJECTOR"
+    },
+    {
+      "channel": 4,
+      "measure": "TC_IPA_TANK"
+    },
+    {
+      "channel": 5,
+      "measure": "TC_HEATER"
+    },
+    {
+      "channel": 6,
+      "measure": "TC_ENGINE_0"
+    },
+    {
+      "channel": 7,
+      "measure": "TC_ENGINE_8"
+    }
+  ],
+  "TC_2": [
+    {
+      "channel": 1,
+      "measure": "TC_ENGINE_1"
+    },
+    {
+      "channel": 2,
+      "measure": "TC_ENGINE_2"
+    },
+    {
+      "channel": 3,
+      "measure": "TC_ENGINE_3"
+    },
+    {
+      "channel": 4,
+      "measure": "TC_ENGINE_4"
+    },
+    {
+      "channel": 5,
+      "measure": "TC_ENGINE_5"
+    },
+    {
+      "channel": 6,
+      "measure": "TC_ENGINE_6"
+    },
+    {
+      "channel": 7,
+      "measure": "TC_ENGINE_7"
+    }
+  ],
+  "LC_1": [
+    {
+      "channel": 0,
+      "measure": "TC_NOS"
+    },
+    {
+      "channel": 2,
+      "measure": "TC_IPA"
+    }
+  ],
+  "LC_2": [
+    {
+      "channel": 0,
+      "measure": "TC_ENGINE_0"
+    },
+    {
+      "channel": 1,
+      "measure": "TC_ENGINE_1"
+    },
+    {
+      "channel": 2,
+      "measure": "TC_ENGINE_2"
+    },
+    {
+      "channel": 3,
+      "measure": "TC_ENGINE_3"
+    }
+  ]
+}

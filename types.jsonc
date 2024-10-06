@@ -1,6 +1,6 @@
 {
   "Channel": [
-    { "type": "f32", "symbol": "channel" }
+    { "type": "u8", "symbol": "channel" }
   ],
   "ChannelPoint": [
     { "type": "u8", "symbol": "channel" },
@@ -80,17 +80,12 @@
     { "type": "u8", "symbol": "automationState" },
     { "type": "f32", "symbol": "fillDp" }
   ],
-  /* ???
-  "ACGemDutyCycle": [
-    { "type": "void", "symbol": "gemDutyCycle" }
-  ],
-  */
-  "CapFillCapacitance": [
+  "CFCapacitance": [
     { "type": "f32", "symbol": "cap" },
     { "type": "f32", "symbol": "ref" },
     { "type": "f32", "symbol": "temperature" }
   ],
-  "ERegPressureTelemetry": [
+  "ERPressureTelemetry": [
     { "type": "f32", "symbol": "filteredUpstreamPressure1" },
     { "type": "f32", "symbol": "filteredUpstreamPressure2" },
     { "type": "f32", "symbol": "filteredDownstreamPressure1" },
@@ -100,7 +95,7 @@
     { "type": "f32", "symbol": "rawDownstreamPressure1" },
     { "type": "f32", "symbol": "rawDownstreamPressure2" }
   ],
-  "ERegMotorTelemetry": [
+  "ERMotorTelemetry": [
     { "type": "f32", "symbol": "encoderAngle" },
     { "type": "f32", "symbol": "angleSetpoint" },
     { "type": "f32", "symbol": "pressureSetpoint" },
@@ -110,54 +105,54 @@
     { "type": "f32", "symbol": "pressureControlID" },
     { "type": "f32", "symbol": "_reserved0" }
   ],
-  "ERegConfig": [
-    { "type": "f32", "pressureSetpointConfig" },
-    { "type": "f32", "pOuterNominal" },
-    { "type": "f32", "iOuterNominal" },
-    { "type": "f32", "dOuterNominal" },
-    { "type": "f32", "pInner" },
-    { "type": "f32", "iInner" },
-    { "type": "f32", "dInner" },
-    { "type": "f32", "flowDurationSeconds" }
+  "ERConfig": [
+    { "type": "f32", "symbol": "pressureSetpointConfig" },
+    { "type": "f32", "symbol": "pOuterNominal" },
+    { "type": "f32", "symbol": "iOuterNominal" },
+    { "type": "f32", "symbol": "dOuterNominal" },
+    { "type": "f32", "symbol": "pInner" },
+    { "type": "f32", "symbol": "iInner" },
+    { "type": "f32", "symbol": "dInner" },
+    { "type": "f32", "symbol": "flowDurationSeconds" }
   ],
-  "ERegDiagnostic": [
+  "ERDiagnostic": [
     { "type": "u8", "symbol": "motorDirPass" },
     { "type": "u8", "symbol": "servoDirPass" }
   ],
-  "ERegStateTransitionError": [
+  "ERStateTransitionError": [
     { "type": "u8", "symbol": "errorCode" }
   ],
-  "ERegFlowState": [
+  "ERFlowState": [
     { "type": "u8", "symbol": "flowState" }
   ],
-  "ERegLimitSwitch": [
+  "ERLimitSwitch": [
     { "type": "f32", "symbol": "fullyClosedSwitch" },
     { "type": "f32", "symbol": "fullyOpenSwitch" }
   ],
-  "ERegPhaseCurrents": [
+  "ERPhaseCurrents": [
     { "type": "f32", "symbol": "currentA" },
     { "type": "f32", "symbol": "currentB" },
     { "type": "f32", "symbol": "currentC" }
   ],
-  "ERegTemperatures": [
+  "ERTemperatures": [
     { "type": "f32", "symbol": "boardTemp1" },
     { "type": "f32", "symbol": "boardTemp2" },
     { "type": "f32", "symbol": "motorTemp" }
   ],
-  "ERegOvercurrentTrigger": [
+  "EROvercurrentTrigger": [
     { "type": "f32", "symbol": "avgCurrent" },
     { "type": "f32", "symbol": "bufferSize" }
   ],
-  "ERegPTCalibrationSettings": [
+  "ERCalibrationSettings": [
     { "type": "OffsetMultiplier", "symbol": "upstreamPt1" },
     { "type": "OffsetMultiplier", "symbol": "upstreamPt2" },
     { "type": "OffsetMultiplier", "symbol": "downstreamPt1" },
     { "type": "OffsetMultiplier", "symbol": "downstreamPt2" }
   ],
-  "ERegPartialOpen": [
+  "ERPartialOpen": [
     { "type": "f32", "symbol": "encoderTicks" }
   ],
-  "ERegSet": [
+  "ERSet": [
     { "type": "f32", "symbol": "value" }
   ]
 }
