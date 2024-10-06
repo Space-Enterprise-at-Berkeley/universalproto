@@ -23,9 +23,9 @@
   {
     "id": 1,
     "name": "PressureTelemetry",
-    "payload": "ERegPressureTelemetry",
+    "payload": "ERPressureTelemetry",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 2,
@@ -58,9 +58,9 @@
   {
     "id": 2,
     "name": "MotorTelemetry",
-    "payload": "ERegMotorTelemetry",
+    "payload": "ERMotorTelemetry",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 3,
@@ -100,9 +100,9 @@
   {
     "id": 3,
     "name": "Config",
-    "payload": "ERegConfig",
+    "payload": "ERConfig",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 4,
@@ -128,9 +128,9 @@
   {
     "id": 4,
     "name": "Diagnostic",
-    "payload": "ERegDiagnostic",
+    "payload": "ERDiagnostic",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 5,
@@ -142,9 +142,9 @@
   {
     "id": 5,
     "name": "StateTransitionError",
-    "payload": "ERegStateTransitionError",
+    "payload": "ERStateTransitionError",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 6,
@@ -156,9 +156,9 @@
   {
     "id": 6,
     "name": "FlowState",
-    "payload": "ERegFlowState",
+    "payload": "ERFlowState",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 7,
@@ -170,9 +170,9 @@
   {
     "id": 7,
     "name": "LimitSwitch",
-    "payload": "ERegLimitSwitch",
+    "payload": "ERLimitSwitch",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 8,
@@ -184,30 +184,30 @@
   {
     "id": 8,
     "name": "PhaseCurrents",
-    "payload": "ERegPhaseCurrents",
+    "payload": "ERPhaseCurrents",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 9,
     "name": "Temperatures",
-    "payload": "ERegTemperatures",
+    "payload": "ERTemperatures",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 10,
     "name": "OvercurrentTrigger",
-    "payload": "ERegOvercurrentTrigger",
+    "payload": "EROvercurrentTrigger",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 11,
     "name": "CalibrationSettings",
-    "payload": "ERegCalibrationSettings",
+    "payload": "ERCalibrationSettings",
     "reads": [ "GD*" ],
-    "writes": [ "EReg*" ]
+    "writes": [ "ER*" ]
   },
   {
     "id": 100,
@@ -227,28 +227,28 @@
     "id": 100,
     "name": "FirstPointCalibration",
     "payload": "ChannelPoint",
-    "reads": [ "PT*", "LC*", "EReg*" ],
+    "reads": [ "PT*", "LC*", "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 101,
     "name": "SecondPointCalibration",
     "payload": "ChannelPoint",
-    "reads": [ "PT*", "LC*", "EReg*" ],
+    "reads": [ "PT*", "LC*", "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 102,
     "name": "RequestCalibrationSettings",
     "payload": null,
-    "reads": [ "PT*", "LC*", "EReg*" ],
+    "reads": [ "PT*", "LC*", "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 103,
     "name": "ResetCalibration",
     "payload": "Channel",
-    "reads": [ "PT*", "LC*", "EReg*" ],
+    "reads": [ "PT*", "LC*", "ER*" ],
     "writes": [ "GD*" ]
   },
   {
@@ -262,66 +262,66 @@
     "id": 200,
     "name": "BeginFlow",
     "payload": "Launch",
-    "reads": [ "EReg*" ],
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 201,
     "name": "StopFlow",
     "payload": null,
-    "reads": [ "EReg*" ],
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 202,
     "name": "PartialOpen",
-    "payload": "ERegPartialOpen",
-    "reads": [ "EReg*" ],
+    "payload": "ERPartialOpen",
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 203,
     "name": "StaticPress",
-    "reads": [ "EReg*" ],
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 204,
     "name": "RunCheckoutSequence",
-    "reads": [ "EReg*" ],
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 205,
     "name": "Zero",
-    "reads": [ "EReg*" ],
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 206,
     "name": "SetP",
-    "payload": "ERegSet",
-    "reads": [ "EReg*" ],
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 207,
     "name": "SetI",
-    "payload": "ERegSet",
-    "reads": [ "EReg*" ],
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 208,
     "name": "SetD",
-    "payload": "ERegSet",
-    "reads": [ "EReg*" ],
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 210,
     "name": "ActuateMainValve",
-    "reads": [ "EReg*" ],
+    "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   }
 ]
