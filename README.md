@@ -1,6 +1,6 @@
-# univeralproto
+# universalproto
 
-## config.json5
+## config.json
 
 Defines specific devices, system modes, error codes, etc.
 
