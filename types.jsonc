@@ -1,4 +1,23 @@
 {
+  "SystemMode": {
+    "LAUNCH": 0,
+    "HOTFIRE": 1,
+    "COLDFLOW": 2,
+    "COLDFLOW_WITH_IGNITER": 3,
+    "GASFLOW": 4,
+    "WATERFLOW": 5
+  },
+  "ErrorCodes": {
+    "NOS_OVERPRESSURE": 1,
+    "IPA_OVERPRESSURE": 2,
+    "ENGINE_OVERTEMP": 3, // TC abort
+    "FAILED_IGNITION": 4, // LC Underthrust
+    "IGNITER_NO_CONTINUITY": 5,
+    "BREAKWIRE_NO_CONTINUITY": 6,
+    "BREAKWIRE_NO_BURNT": 7,
+    "NO_DASHBOARD_COMMS": 8,
+    "PROPELLANT_RUNOUT": 9 // LC Underthrust
+  },
   "Channel": [
     { "type": "u8", "symbol": "channel" }
   ],

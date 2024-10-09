@@ -27,28 +27,6 @@
     "GD_Raul_H": 173,
     "GD_Andy_Cate": 194
   },
-  "systemModes": {
-    "Launch": 0,
-    "Hotfire": 1,
-    "Coldflow": 2,
-    "Coldflow_with_igniter": 3,
-    "gasflow": 4,
-    "waterflow": 5
-  },
-  /*
-   multiline comment.
-   */
-  "errorCodes": {
-    "NOS_Overpressure": 1,
-    "IPA_Overpressure": 2,
-    "Engine_Overtemp": 3, // TC abort
-    "Failed_Ignition": 4, // LC Underthrust
-    "Igniter_No_Continuity": 5,
-    "Breakwire_No_Continuity": 6,
-    "Breakwire_No_Burnt": 7,
-    "No_Dashboard_Comms": 8,
-    "Propellant_RunOut": 9 // LC Underthrust
-  },
   "AC_1": [
     {
       "channel": 1,
