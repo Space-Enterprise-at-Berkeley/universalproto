@@ -211,6 +211,13 @@
   },
   {
     "id": 100,
+    "name": "ActuateActuator",
+    "payload": "ACActuateActuator",
+    "reads": [ "AC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 100,
     "name": "ZeroChannel",
     "payload": "Channel",
     "reads": [ "PT*", "LC*" ],
@@ -250,6 +257,13 @@
     "payload": "Channel",
     "reads": [ "PT*", "LC*", "ER*" ],
     "writes": [ "GD*" ]
+  },
+  {
+    "id": 133,
+    "name": "Abort",
+    "payload": "Abort",
+    "reads": [ "*" ],
+    "writes": [ "*" ]
   },
   {
     "id": 149,

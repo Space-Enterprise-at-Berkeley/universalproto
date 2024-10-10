@@ -30,10 +30,14 @@
     { "type": "f32", "symbol": "multiplier" }
   ],
   "Launch": [
-    { "type": "f32", "symbol": "systemMode" },
-    { "type": "u8", "symbol": "burnTime" },
-    { "type": "f32", "symbol": "nitrousEnable" },
-    { "type": "f32", "symbol": "ipaEnable" }
+    { "enum": "SystemMode", "type": "u8", "symbol": "systemMode" },
+    { "type": "f32", "symbol": "burnTime" },
+    { "type": "u8", "symbol": "nitrousEnable" },
+    { "type": "u8", "symbol": "ipaEnable" }
+  ],
+  "Abort": [
+    { "enum": "SystemMode", "type": "u8", "symbol": "systemMode" },
+    { "enum": "ErrorCodes", "type": "u8", "symbol": "abortReason" }
   ],
   "Ack": [
     { "array": 40, "type": "u8", "symbol": "protoVersion" }
@@ -75,13 +79,26 @@
   "TCFaults": [
     { "array": 8, "type": "u8", "symbol": "faults" }
   ],
-  "ACActuatorStates": {
+  "ACActuatorActions": {
+    "RETRACT_FULL": 0,
+    "EXTEND_FULL": 1,
+    "RETRACT_TIMED": 2,
+    "EXTEND_TIMED": 3,
+    "ON": 4,
+    "OFF": 5
+  },
+  "ACActuateActuator": [
+    { "type": "u8", "symbol": "actuatorNumber" },
+    { "enum": "ACActuatorActions", "type": "u8", "symbol": "action" },
+    { "enum": "u32", "symbol": "actuateTime" }
+  ],
+  "ACActuatorStatesType": {
     "RETRACTING": 0,
     "EXTENDING": 1,
     "OFF": 2
   },
   "ACActuatorStates": [
-    { "array": 8, "enum": "ACActuatorStates", "type": "u8", "symbol": "states" }
+    { "array": 8, "enum": "ACActuatorStatesType", "type": "u8", "symbol": "states" }
   ],
   "ACActuatorContinuities": [
     { "array": 8, "type": "f32", "symbol": "continuities" }
