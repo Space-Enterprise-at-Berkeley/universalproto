@@ -30,75 +30,75 @@
   "AC_1": [
     {
       "channel": 1,
-      "control": "AC_BREAKWIRE"
+      "measure": "AC_BREAKWIRE"
     },
     {
       "channel": 3,
-      "control": "AC_ARM"
+      "measure": "AC_ARM"
     },
     {
       "channel": 4,
-      "control": "AC_NOS_MAIN"
+      "measure": "AC_NOS_MAIN"
     },
     {
       "channel": 5,
-      "control": "AC_IPA_MAIN"
+      "measure": "AC_IPA_MAIN"
     },
     {
       "channel": 7,
-      "control": "AC_IGNITER"
+      "measure": "AC_IGNITER"
     }
   ],
   "AC_2": [
     {
       "channel": 0,
-      "control": "AC_NOS_GEMS"
+      "measure": "AC_NOS_GEMS"
     },
     {
       "channel": 1,
-      "control": "AC_NOS_FILL_RBV"
+      "measure": "AC_NOS_FILL"
     },
     {
       "channel": 3,
-      "control": "AC_NOS_LINE_VENT"
+      "measure": "AC_NOS_LINE_VENT"
     },
     {
       "channel": 4,
-      "control": "AC_NOS_EMERGENCY_VENT"
+      "measure": "AC_NOS_EMERGENCY_VENT"
     },
     {
       "channel": 5,
-      "control": "AC_NOS_DRAIN"
+      "measure": "AC_NOS_DRAIN"
     },
     {
       "channel": 6,
-      "control": "AC_NOS_SLOW_VENT"
+      "measure": "AC_NOS_SLOW_VENT"
     },
     {
       "channel": 7,
-      "control": "???"
+      "measure": "???"
     }
   ],
   "AC_3": [
     {
       "channel": 0,
-      "control": "AC_IPA_GEMS"
+      "measure": "AC_IPA_GEMS"
     },
     {
       "channel": 2,
-      "control": "AC_IPA_SLOW_VENT"
+      "measure": "AC_IPA_SLOW_VENT"
     },
     {
       "channel": 4,
-      "control": "AC_IPA_EMERGENCY_VENT"
+      "measure": "AC_IPA_EMERGENCY_VENT"
     },
     {
       "channel": 5,
-      "control": "AC_IPA_DRAIN"
+      "measure": "AC_IPA_DRAIN"
     },
     {
       "channel": 6,
-      "control": "AC_IPA_PRESS_FLOW"
+      "measure": "AC_IPA_PRESS_FLOW"
     }
   ],
   "PT_1": [

@@ -8,6 +8,7 @@
     "WATERFLOW": 5
   },
   "ErrorCodes": {
+    "MANUAL": 0,
     "NOS_OVERPRESSURE": 1,
     "IPA_OVERPRESSURE": 2,
     "ENGINE_OVERTEMP": 3, // TC abort
@@ -48,10 +49,10 @@
     { "type": "f32", "symbol": "supply24Power" }
   ],
   "PTValues": [
-    { "array": 8, "type": "f32", "symbol": "values" }
+    { "array": 8, "type": "f32", "symbol": "values", "channel": true }
   ],
   "PTCalibrationSettings": [
-    { "array": 8, "type": "OffsetMultiplier", "symbol": "channelInfo" }
+    { "array": 8, "type": "OffsetMultiplier", "symbol": "channelInfo", "channel": true }
   ],
   "PTAutomationData": [
     { "type": "f32", "symbol": "nosTank" },
@@ -68,16 +69,16 @@
     { "type": "f32", "symbol": "summedValues2" }
   ],
   "LCCalibrationSettings": [
-    { "array": 8, "type": "OffsetMultiplier", "symbol": "channelInfo" }
+    { "array": 8, "type": "OffsetMultiplier", "symbol": "channelInfo", "channel": true }
   ],
   "TCValues": [
-    { "array": 8, "type": "f32", "symbol": "values" }
+    { "array": 8, "type": "f32", "symbol": "values", "channel": true }
   ],
   "TCColdJunctionTemperatures": [
-    { "array": 8, "type": "f32", "symbol": "values" }
+    { "array": 8, "type": "f32", "symbol": "values", "channel": true }
   ],
   "TCFaults": [
-    { "array": 8, "type": "u8", "symbol": "faults" }
+    { "array": 8, "type": "u8", "symbol": "faults", "channel": true }
   ],
   "ACActuatorActions": {
     "RETRACT_FULL": 0,
@@ -88,9 +89,9 @@
     "OFF": 5
   },
   "ACActuateActuator": [
-    { "type": "u8", "symbol": "actuatorNumber" },
+    { "type": "u8", "symbol": "actuatorNumber", "channel": true },
     { "enum": "ACActuatorActions", "type": "u8", "symbol": "action" },
-    { "enum": "u32", "symbol": "actuateTime" }
+    { "type": "u32", "symbol": "actuateTime" }
   ],
   "ACActuatorStatesType": {
     "RETRACTING": 0,
@@ -98,19 +99,19 @@
     "OFF": 2
   },
   "ACActuatorStates": [
-    { "array": 8, "enum": "ACActuatorStatesType", "type": "u8", "symbol": "states" }
+    { "array": 8, "enum": "ACActuatorStatesType", "type": "u8", "symbol": "states", "channel": true }
   ],
   "ACActuatorContinuities": [
-    { "array": 8, "type": "f32", "symbol": "continuities" }
+    { "array": 8, "type": "f32", "symbol": "continuities", "channel": true }
   ],
   "ACActuatorCurrents": [
-    { "array": 8, "type": "f32", "symbol": "currents" }
+    { "array": 8, "type": "f32", "symbol": "currents", "channel": true }
   ],
   "ACAutoventPressures": [
     { "type": "f32", "symbol": "autoventPressure" }
   ],
   "ACPotentiometers": [
-    { "array": 8, "type": "u16", "symbol": "potentiometers" }
+    { "array": 8, "type": "u16", "symbol": "potentiometers", "channel": true }
   ],
   "ACAutomationInfo": [
     { "type": "u8", "symbol": "automationState" },

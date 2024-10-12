@@ -259,6 +259,13 @@
     "writes": [ "GD*" ]
   },
   {
+    "id": 124,
+    "name": "SetAutoventThreshold",
+    "payload": "ACAutoventPressures",
+    "reads": [ "AC_2", "AC_3" ],
+    "writes": [ "GD*" ]
+  },
+  {
     "id": 133,
     "name": "Abort",
     "payload": "Abort",
