@@ -73,10 +73,6 @@
     {
       "channel": 6,
       "measure": "AC_NOS_SLOW_VENT"
-    },
-    {
-      "channel": 7,
-      "measure": "???"
     }
   ],
   "AC_3": [

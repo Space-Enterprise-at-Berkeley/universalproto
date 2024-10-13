@@ -78,13 +78,6 @@
   },
   {
     "id": 3,
-    "name": "CalibrationSettings",
-    "payload": "LCCalibrationSettings",
-    "reads": [ "GD*" ],
-    "writes": [ "LC*" ]
-  },
-  {
-    "id": 3,
     "name": "ColdJunctionTemperatures",
     "payload": "TCColdJunctionTemperatures",
     "reads": [ "GD*" ],
@@ -95,7 +88,7 @@
     "name": "ActuatorContinuities",
     "payload": "ACActuatorContinuities",
     "reads": [ "GD*" ],
-    "writes": [ "TC*" ]
+    "writes": [ "AC*" ]
   },
   {
     "id": 3,
