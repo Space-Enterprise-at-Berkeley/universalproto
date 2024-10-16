@@ -61,10 +61,11 @@
     { "type": "f32", "symbol": "ipaPress" }
   ],
   "LCValues": [
-    { "type": "f32", "symbol": "nos" },
-    { "type": "f32", "symbol": "_reserved0" },
-    { "type": "f32", "symbol": "ipa" },
-    { "type": "f32", "symbol": "_reserved1" },
+    { "array": 4, "type": "f32", "symbol": "values", "channel": true },
+    // { "type": "f32", "symbol": "nos" },
+    // { "type": "f32", "symbol": "_reserved0" },
+    // { "type": "f32", "symbol": "ipa" },
+    // { "type": "f32", "symbol": "_reserved1" },
     { "type": "f32", "symbol": "summedValues1" },
     { "type": "f32", "symbol": "summedValues2" }
   ],

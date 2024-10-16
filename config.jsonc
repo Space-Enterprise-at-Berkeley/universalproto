@@ -238,29 +238,29 @@
   "LC_1": [
     {
       "channel": 0,
-      "measure": "TC_NOS"
+      "measure": "LC_NOS"
     },
     {
       "channel": 2,
-      "measure": "TC_IPA"
+      "measure": "LC_IPA"
     }
   ],
   "LC_2": [
     {
       "channel": 0,
-      "measure": "TC_ENGINE_0"
+      "measure": "LC_ENGINE_0"
     },
     {
       "channel": 1,
-      "measure": "TC_ENGINE_1"
+      "measure": "LC_ENGINE_1"
     },
     {
       "channel": 2,
-      "measure": "TC_ENGINE_2"
+      "measure": "LC_ENGINE_2"
     },
     {
       "channel": 3,
-      "measure": "TC_ENGINE_3"
+      "measure": "LC_ENGINE_3"
     }
   ]
 }
