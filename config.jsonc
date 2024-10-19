@@ -103,10 +103,6 @@
       "measure": "PT_NOS_TANK"
     },
     {
-      "channel": 1,
-      "measure": "PT_NOS_FILL_LINE"
-    },
-    {
       "channel": 2,
       "measure": "PT_MAIN_VALVE"
     },
@@ -120,7 +116,7 @@
     },
     {
       "channel": 6,
-      "measure": "PT_NOS_FILL_LINE_NEW"
+      "measure": "PT_NOS_FILL_LINE"
     }
   ],
   "PT_2": [
@@ -130,11 +126,11 @@
     },
     {
       "channel": 2,
-      "measure": "PT_ENGINE_0" // chamber pt 0
+      "measure": "PT_CHAMBER_0"
     },
     {
       "channel": 3,
-      "measure": "PT_ENGINE_1" // manifold
+      "measure": "PT_MANIFOLD"
     },
     {
       "channel": 4,
@@ -150,13 +146,13 @@
     },
     {
       "channel": 7,
-      "measure": "PT_ENGINE_5" // chamber pt 1
+      "measure": "PT_CHAMBER_1"
     }
   ],
   "PT_3": [
     {
       "channel": 0,
-      "measure": "PT_IPA_INJECTOR" // formerley engine 6
+      "measure": "PT_IPA_INJECTOR"
     },
     {
       "channel": 1,
@@ -172,7 +168,7 @@
     },
     {
       "channel": 4,
-      "measure": "PT_ENGINE_6" // formerley engine 10
+      "measure": "PT_ENGINE_10"
     }
   ],
   "TC_1": [

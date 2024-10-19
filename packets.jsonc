@@ -170,7 +170,7 @@
   {
     "id": 8,
     "name": "GemDutyCycle",
-    "payload": null,
+    "payload": "DutyCycle",
     "reads": [ "GD*" ],
     "writes": [ "AC*" ]
   },

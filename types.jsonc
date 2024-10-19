@@ -61,13 +61,13 @@
     { "type": "f32", "symbol": "ipaPress" }
   ],
   "LCValues": [
-    { "array": 4, "type": "f32", "symbol": "values", "channel": true },
+    { "array": 4, "type": "f32", "symbol": "values", "channel": true }
     // { "type": "f32", "symbol": "nos" },
     // { "type": "f32", "symbol": "_reserved0" },
     // { "type": "f32", "symbol": "ipa" },
     // { "type": "f32", "symbol": "_reserved1" },
-    { "type": "f32", "symbol": "summedValues1" },
-    { "type": "f32", "symbol": "summedValues2" }
+    // { "type": "f32", "symbol": "summedValues1" },
+    // { "type": "f32", "symbol": "summedValues2" }
   ],
   "LCCalibrationSettings": [
     { "array": 8, "type": "OffsetMultiplier", "symbol": "channelInfo", "channel": true }
@@ -118,6 +118,9 @@
     { "type": "u8", "symbol": "automationState" },
     { "type": "f32", "symbol": "fillDp" }
   ],
+  "DutyCycle": [
+    { "type": "f32", "symbol": "gemsDutyCycle" }
+  ],
   "CFCapacitance": [
     { "type": "f32", "symbol": "cap" },
     { "type": "f32", "symbol": "ref" },
@@ -140,8 +143,8 @@
     { "type": "f32", "symbol": "motorPower" },
     { "type": "f32", "symbol": "pressureControlIP" },
     { "type": "f32", "symbol": "pressureControl" },
-    { "type": "f32", "symbol": "pressureControlID" },
-    { "type": "f32", "symbol": "_reserved0" }
+    { "type": "f32", "symbol": "pressureControlID" }
+    // { "type": "f32", "symbol": "_reserved0" }
   ],
   "ERConfig": [
     { "type": "f32", "symbol": "pressureSetpointConfig" },
