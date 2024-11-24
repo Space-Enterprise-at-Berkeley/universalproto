@@ -63,14 +63,14 @@
     "writes": [ "ER*" ]
   },
   {
-    "id": 3,
+    "id": 102,
     "name": "CalibrationSettings",
     "payload": "PTCalibrationSettings",
     "reads": [ "GD*" ],
     "writes": [ "PT*" ]
   },
   {
-    "id": 3,
+    "id": 102,
     "name": "CalibrationSettings",
     "payload": "LCCalibrationSettings",
     "reads": [ "GD*" ],
@@ -196,7 +196,7 @@
     "writes": [ "ER*" ]
   },
   {
-    "id": 11,
+    "id": 102,
     "name": "CalibrationSettings",
     "payload": "ERCalibrationSettings",
     "reads": [ "GD*" ],

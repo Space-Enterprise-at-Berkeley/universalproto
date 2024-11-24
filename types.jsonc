@@ -109,7 +109,8 @@
     { "array": 8, "type": "f32", "symbol": "currents", "channel": true }
   ],
   "ACAutoventPressures": [
-    { "type": "f32", "symbol": "autoventPressure" }
+    { "type": "f32", "symbol": "autoventPressure" },
+    { "type": "u8", "symbol": "noCommsAbortEnabled" }
   ],
   "ACPotentiometers": [
     { "array": 8, "type": "u16", "symbol": "potentiometers", "channel": true }
@@ -147,14 +148,15 @@
     // { "type": "f32", "symbol": "_reserved0" }
   ],
   "ERConfig": [
-    { "type": "f32", "symbol": "pressureSetpointConfig" },
+    { "type": "f32", "symbol": "pressureSetpointStart" },
     { "type": "f32", "symbol": "pOuterNominal" },
     { "type": "f32", "symbol": "iOuterNominal" },
     { "type": "f32", "symbol": "dOuterNominal" },
     { "type": "f32", "symbol": "pInner" },
     { "type": "f32", "symbol": "iInner" },
     { "type": "f32", "symbol": "dInner" },
-    { "type": "f32", "symbol": "flowDurationSeconds" }
+    { "type": "f32", "symbol": "pressureSetpointDropRate" },
+    { "type": "f32", "symbol": "pressureSetpointMinimum" }
   ],
   "ERDiagnostic": [
     { "type": "u8", "symbol": "motorDirPass" },
