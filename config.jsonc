@@ -55,10 +55,6 @@
       "measure": "AC_NOS_GEMS"
     },
     {
-      "channel": 1,
-      "measure": "AC_NOS_FILL"
-    },
-    {
       "channel": 3,
       "measure": "AC_NOS_LINE_VENT"
     },
@@ -73,6 +69,10 @@
     {
       "channel": 6,
       "measure": "AC_NOS_SLOW_VENT"
+    },
+    {
+      "channel": 7,
+      "measure": "AC_NOS_FILL"
     }
   ],
   "AC_3": [
