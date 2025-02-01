@@ -52,7 +52,8 @@
     { "array": 8, "type": "f32", "symbol": "values", "channel": true }
   ],
   "PTCalibrationSettings": [
-    { "array": 8, "type": "OffsetMultiplier", "symbol": "channelInfo", "channel": true }
+    { "array": 8, "type": "f32", "symbol": "channelInfoOffset", "channel": true },
+    { "array": 8, "type": "f32", "symbol": "channelInfoMultiplier", "channel": true }
   ],
   "PTAutomationData": [
     { "type": "f32", "symbol": "nosTank" },
@@ -70,7 +71,8 @@
     // { "type": "f32", "symbol": "summedValues2" }
   ],
   "LCCalibrationSettings": [
-    { "array": 8, "type": "OffsetMultiplier", "symbol": "channelInfo", "channel": true }
+    { "array": 8, "type": "f32", "symbol": "channelInfoOffset", "channel": true },
+    { "array": 8, "type": "f32", "symbol": "channelInfoMultiplier", "channel": true }
   ],
   "TCValues": [
     { "array": 8, "type": "f32", "symbol": "values", "channel": true }
@@ -187,10 +189,14 @@
     { "type": "f32", "symbol": "bufferSize" }
   ],
   "ERCalibrationSettings": [
-    { "type": "OffsetMultiplier", "symbol": "upstreamPt1" },
-    { "type": "OffsetMultiplier", "symbol": "upstreamPt2" },
-    { "type": "OffsetMultiplier", "symbol": "downstreamPt1" },
-    { "type": "OffsetMultiplier", "symbol": "downstreamPt2" }
+    { "type": "f32", "symbol": "upstreamPt1Offset" },
+    { "type": "f32", "symbol": "upstreamPt1Multiplier" },
+    { "type": "f32", "symbol": "upstreamPt2Offset" },
+    { "type": "f32", "symbol": "upstreamPt2Multiplier" },
+    { "type": "f32", "symbol": "downstreamPt1Offset" },
+    { "type": "f32", "symbol": "downstreamPt1Multiplier" },
+    { "type": "f32", "symbol": "downstreamPt2Offset" },
+    { "type": "f32", "symbol": "downstreamPt2Multiplier" }
   ],
   "ERPartialOpen": [
     { "type": "f32", "symbol": "encoderTicks" }
