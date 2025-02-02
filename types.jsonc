@@ -99,7 +99,7 @@
   "ACActuatorStatesType": {
     "RETRACTING": 0,
     "EXTENDING": 1,
-    "OFF": 2
+    "OFF_STATE": 2
   },
   "ACActuatorStates": [
     { "array": 8, "enum": "ACActuatorStatesType", "type": "u8", "symbol": "states", "channel": true }
