@@ -7,7 +7,7 @@
     "GASFLOW": 4,
     "WATERFLOW": 5
   },
-  "ErrorCodes": {
+  "AbortCode": {
     "MANUAL": 0,
     "NOS_OVERPRESSURE": 1,
     "IPA_OVERPRESSURE": 2,
@@ -38,7 +38,7 @@
   ],
   "Abort": [
     { "enum": "SystemMode", "type": "u8", "symbol": "systemMode" },
-    { "enum": "ErrorCodes", "type": "u8", "symbol": "abortReason" }
+    { "enum": "AbortCode", "type": "u8", "symbol": "abortReason" }
   ],
   "Ack": [
     { "array": 40, "type": "u8", "symbol": "protoVersion" }
@@ -111,7 +111,8 @@
     { "array": 8, "type": "f32", "symbol": "currents", "channel": true }
   ],
   "ACAutoventPressures": [
-    { "type": "f32", "symbol": "autoventPressure" },
+    { "type": "f32", "symbol": "nosAutoventPressure" },
+    { "type": "f32", "symbol": "ipaAutoventPressure" },
     { "type": "u8", "symbol": "noCommsAbortEnabled" }
   ],
   "ACPotentiometers": [
@@ -203,5 +204,11 @@
   ],
   "ERSet": [
     { "type": "f32", "symbol": "value" }
+  ],
+  "Heartbeat": [
+    { "type": "u32", "symbol": "packetSpecVersion" }
+  ],
+  "SetCommsAbort": [
+    { "type": "u8", "symbol": "enabled" }
   ]
 }

@@ -101,7 +101,7 @@
     "id": 4,
     "name": "PTAutomationData",
     "payload": "PTAutomationData",
-    "reads": [ "GD*" ],
+    "reads": [ "GD*", "AC*" ],
     "writes": [ "PT*" ]
   },
   {
@@ -241,7 +241,7 @@
     "id": 124,
     "name": "ACSetAutoventThreshold",
     "payload": "ACAutoventPressures",
-    "reads": [ "AC_2", "AC_3" ],
+    "reads": [ "AC*" ],
     "writes": [ "GD*" ]
   },
   {
@@ -255,15 +255,15 @@
     "id": 149,
     "name": "Launch",
     "payload": "Launch",
-    "reads": [ "AC_1" ],
+    "reads": [ "AC*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 200,
-    "name": "ERBeginFlow",
+    "name": "BeginFlow",
     "payload": "Launch",
-    "reads": [ "ER*" ],
-    "writes": [ "GD*" ]
+    "reads": [ "*" ],
+    "writes": [ "AC*", "GD*" ]
   },
   {
     "id": 201,
@@ -323,5 +323,25 @@
     "name": "ERActuateMainValve",
     "reads": [ "ER*" ],
     "writes": [ "GD*" ]
+  },
+  {
+    "id": 201,
+    "name": "EndFlow",
+    "reads": [ "AC*" ],
+    "writes": [ "AC*" ]
+  },
+  {
+    "id": 249,
+    "name": "Heartbeat",
+    "payload": "Heartbeat",
+    "reads": [ "*" ],
+    "writes": [ "*" ]
+  },
+  {
+    "id": 251,
+    "name": "SetCommsAbort",
+    "payload": "SetCommsAbort",
+    "reads": [ "*" ],
+    "writes": [ "GC*" ]
   }
 ]
