@@ -57,9 +57,7 @@
   ],
   "PTAutomationData": [
     { "type": "f32", "symbol": "nosTank" },
-    { "type": "f32", "symbol": "nosSource" },
-    { "type": "f32", "symbol": "ipaTank" },
-    { "type": "f32", "symbol": "ipaPress" }
+    { "type": "f32", "symbol": "ipaTank" }
   ],
   "LCValues": [
     { "array": 4, "type": "f32", "symbol": "values", "channel": true }
@@ -145,9 +143,9 @@
     { "type": "f32", "symbol": "angleSetpoint" },
     { "type": "f32", "symbol": "pressureSetpoint" },
     { "type": "f32", "symbol": "motorPower" },
-    { "type": "f32", "symbol": "pressureControlIP" },
-    { "type": "f32", "symbol": "pressureControl" },
-    { "type": "f32", "symbol": "pressureControlID" }
+    { "type": "f32", "symbol": "pressureControlP" },
+    { "type": "f32", "symbol": "pressureControlI" },
+    { "type": "f32", "symbol": "pressureControlD" }
     // { "type": "f32", "symbol": "_reserved0" }
   ],
   "ERConfig": [
@@ -186,8 +184,8 @@
     { "type": "f32", "symbol": "motorTemp" }
   ],
   "EROvercurrentTrigger": [
-    { "type": "f32", "symbol": "avgCurrent" },
-    { "type": "f32", "symbol": "bufferSize" }
+    // { "type": "f32", "symbol": "avgCurrent" },
+    // { "type": "f32", "symbol": "bufferSize" }
   ],
   "ERCalibrationSettings": [
     { "type": "f32", "symbol": "upstreamPt1Offset" },

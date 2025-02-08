@@ -319,15 +319,51 @@
     "writes": [ "GD*" ]
   },
   {
+    "id": 209,
+    "name": "ERSetPOuter",
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
+    "writes": [ "GD*" ]
+  },
+  {
     "id": 210,
-    "name": "ERActuateMainValve",
+    "name": "ERSetIOuter",
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 211,
+    "name": "ERSetDOuter",
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 212,
+    "name": "ERSetPressureSetpointStart",
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 213,
+    "name": "ERSetPressureSetpointDropRate",
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 214,
+    "name": "ERSetPressureSetpointMinimum",
+    "payload": "ERSet",
     "reads": [ "ER*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 201,
     "name": "EndFlow",
-    "reads": [ "AC*" ],
+    "reads": [ "*" ],
     "writes": [ "AC*" ]
   },
   {
