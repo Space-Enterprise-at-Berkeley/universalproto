@@ -253,14 +253,14 @@
   },
   {
     "id": 149,
-    "name": "Launch",
+    "name": "Launch", // Sent to AC, which forwards it after aborts. Used if there's a breakwire
     "payload": "Launch",
     "reads": [ "AC*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 200,
-    "name": "BeginFlow",
+    "name": "BeginFlow", // Begin the flow for everything immediately. Used if there is not a breakwire
     "payload": "Launch",
     "reads": [ "*" ],
     "writes": [ "AC*", "GD*" ]
