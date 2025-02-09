@@ -240,11 +240,11 @@
   "LC_1": [
     {
       "channel": 1,
-      "measure": "LC_ENGINE_1"
+      "measure": "LC_ENGINE_2"
     },
     {
       "channel": 2,
-      "measure": "LC_ENGINE_2"
+      "measure": "LC_ENGINE_1"
     },
     {
       "channel": 3,
@@ -259,6 +259,6 @@
     {
       "channel": 2,
       "measure": "LC_IPA"
-    },
+    }
   ]
 }
