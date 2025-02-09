@@ -128,27 +128,27 @@
     },
     {
       "channel": 2,
-      "measure": "PT_CHANNEL_0"
+      "measure": "PT_ENGINE_0"
     },
     {
       "channel": 3,
-      "measure": "PT_CHANNEL_1"
+      "measure": "PT_ENGINE_1"
     },
     {
       "channel": 4,
-      "measure": "PT_CHANNEL_2"
+      "measure": "PT_ENGINE_2"
     },
     {
       "channel": 5,
-      "measure": "PT_CHANNEL_3"
+      "measure": "PT_ENGINE_3"
     },
     {
       "channel": 6,
-      "measure": "PT_CHANNEL_4"
+      "measure": "PT_ENGINE_4"
     },
     {
       "channel": 7,
-      "measure": "PT_CHANNEL_5"
+      "measure": "PT_ENGINE_5"
     }
   ],
   "PT_3": [
@@ -157,36 +157,32 @@
       "measure": "PT_MANIFOLD_2"
     },
     {
-      "channel": 0,
+      "channel": 1,
       "measure": "PT_CHAMBER"
     },
     {
-      "channel": 1,
-      "measure": "PT_CHANNEL_5"
-    },
-    {
       "channel": 2,
-      "measure": "PT_CHANNEL_6"
+      "measure": "PT_ENGINE_6"
     },
     {
       "channel": 3,
-      "measure": "PT_CHANNEL_7"
+      "measure": "PT_ENGINE_7"
     },
     {
       "channel": 4,
-      "measure": "PT_CHANNEL_8"
+      "measure": "PT_ENGINE_8"
     },
     {
       "channel": 5,
-      "measure": "PT_CHANNEL_9"
+      "measure": "PT_ENGINE_9"
     },
     {
       "channel": 6,
-      "measure": "PT_CHANNEL_10"
+      "measure": "PT_ENGINE_10"
     },
     {
       "channel": 7,
-      "measure": "PT_CHANNEL_11"
+      "measure": "PT_ENGINE_11"
     }
   ],
   "TC_1": [
