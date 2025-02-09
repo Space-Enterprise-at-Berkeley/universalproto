@@ -20,7 +20,7 @@
   "AC_1": [
     {
       "channel": 1,
-      "measure": "AC_BREAKWIRE"
+      "measure": "AC_BREAKWIRE" // Fake
     },
     {
       "channel": 3,
@@ -89,7 +89,7 @@
   ],
   "PT_1": [
     {
-      "channel": 0,
+      "channel": 1,
       "measure": "PT_NOS_TANK"
     },
     {
@@ -105,93 +105,95 @@
       "measure": "PT_IPA_TANK"
     },
     {
+      "channel": 5,
+      "measure": "PT_NOS_INJECTOR"
+    },
+    {
       "channel": 6,
+      "measure": "PT_IPA_INJECTOR"
+    },
+    {
+      "channel": 7,
       "measure": "PT_NOS_FILL_LINE"
     }
   ],
   "PT_2": [
     {
       "channel": 0,
-      "measure": "PT_NOS_INJECTOR"
+      "measure": "PT_MANIFOLD_0"
+    },
+    {
+      "channel": 1,
+      "measure": "PT_MANIFOLD_1"
     },
     {
       "channel": 2,
-      "measure": "PT_CHAMBER_0"
+      "measure": "PT_CHANNEL_0"
     },
     {
       "channel": 3,
-      "measure": "PT_MANIFOLD"
+      "measure": "PT_CHANNEL_1"
     },
     {
       "channel": 4,
-      "measure": "PT_ENGINE_2"
+      "measure": "PT_CHANNEL_2"
     },
     {
       "channel": 5,
-      "measure": "PT_ENGINE_3"
+      "measure": "PT_CHANNEL_3"
     },
     {
       "channel": 6,
-      "measure": "PT_ENGINE_4"
+      "measure": "PT_CHANNEL_4"
     },
     {
       "channel": 7,
-      "measure": "PT_CHAMBER_1"
+      "measure": "PT_CHANNEL_5"
     }
   ],
   "PT_3": [
     {
       "channel": 0,
-      "measure": "PT_IPA_INJECTOR"
+      "measure": "PT_MANIFOLD_2"
+    },
+    {
+      "channel": 0,
+      "measure": "PT_CHAMBER"
     },
     {
       "channel": 1,
-      "measure": "PT_ENGINE_7"
+      "measure": "PT_CHANNEL_5"
     },
     {
       "channel": 2,
-      "measure": "PT_ENGINE_8"
+      "measure": "PT_CHANNEL_6"
     },
     {
       "channel": 3,
-      "measure": "PT_ENGINE_9"
+      "measure": "PT_CHANNEL_7"
     },
     {
       "channel": 4,
-      "measure": "PT_ENGINE_10"
+      "measure": "PT_CHANNEL_8"
+    },
+    {
+      "channel": 5,
+      "measure": "PT_CHANNEL_9"
+    },
+    {
+      "channel": 6,
+      "measure": "PT_CHANNEL_10"
+    },
+    {
+      "channel": 7,
+      "measure": "PT_CHANNEL_11"
     }
   ],
   "TC_1": [
     {
-      "channel": 1,
-      "measure": "TC_NOS_TANK"
-    },
-    {
-      "channel": 2,
-      "measure": "TC_NOS_INJECTOR"
-    },
-    {
-      "channel": 3,
-      "measure": "TC_IPA_INJECTOR"
-    },
-    {
-      "channel": 4,
-      "measure": "TC_IPA_TANK"
-    },
-    {
-      "channel": 5,
-      "measure": "TC_HEATER"
-    },
-    {
-      "channel": 6,
+      "channel": 0,
       "measure": "TC_ENGINE_0"
     },
-    {
-      "channel": 7,
-      "measure": "TC_ENGINE_8"
-    }
-  ],
-  "TC_2": [
     {
       "channel": 1,
       "measure": "TC_ENGINE_1"
@@ -221,21 +223,25 @@
       "measure": "TC_ENGINE_7"
     }
   ],
-  "LC_1": [
+  "TC_2": [
     {
-      "channel": 0,
-      "measure": "LC_NOS"
+      "channel": 1,
+      "measure": "TC_ENGINE_8"
     },
     {
       "channel": 2,
-      "measure": "LC_IPA"
+      "measure": "TC_ENGINE_9"
+    },
+    {
+      "channel": 3,
+      "measure": "TC_ENGINE_10"
+    },
+    {
+      "channel": 4,
+      "measure": "TC_ENGINE_11"
     }
   ],
-  "LC_2": [
-    {
-      "channel": 0,
-      "measure": "LC_ENGINE_0"
-    },
+  "LC_1": [
     {
       "channel": 1,
       "measure": "LC_ENGINE_1"
@@ -248,5 +254,15 @@
       "channel": 3,
       "measure": "LC_ENGINE_3"
     }
+  ],
+  "LC_2": [
+    {
+      "channel": 0,
+      "measure": "LC_NOS"
+    },
+    {
+      "channel": 2,
+      "measure": "LC_IPA"
+    },
   ]
 }

@@ -378,6 +378,32 @@
     "name": "SetCommsAbort",
     "payload": "SetCommsAbort",
     "reads": [ "*" ],
-    "writes": [ "GC*" ]
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 120,
+    "name": "TCSetAbortLimit",
+    "payload": "TCSetAbort",
+    "reads": [ "TC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 121,
+    "name": "TCRequestAbortLimits",
+    "reads": [ "TC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 122,
+    "name": "TCResetAbortLimits",
+    "reads": [ "TC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 123,
+    "name": "TCAbortLimits",
+    "payload": "TCAbortLimits",
+    "reads": [ "GD*" ],
+    "writes": [ "TC*" ]
   }
 ]

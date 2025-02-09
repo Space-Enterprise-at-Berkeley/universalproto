@@ -208,5 +208,12 @@
   ],
   "SetCommsAbort": [
     { "type": "u8", "symbol": "enabled" }
+  ],
+  "TCSetAbort": [
+    { "type": "u8", "symbol": "channel" },
+    { "type": "f32", "symbol": "temp" }
+  ],
+  "TCAbortLimits": [
+    { "array": 8, "type": "f32", "symbol": "temps", "channel": true }
   ]
 }
