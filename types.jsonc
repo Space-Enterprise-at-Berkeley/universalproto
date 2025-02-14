@@ -69,8 +69,8 @@
     // { "type": "f32", "symbol": "summedValues2" }
   ],
   "LCCalibrationSettings": [
-    { "array": 8, "type": "f32", "symbol": "channelInfoOffset", "channel": true },
-    { "array": 8, "type": "f32", "symbol": "channelInfoMultiplier", "channel": true }
+    { "array": 4, "type": "f32", "symbol": "channelInfoOffset", "channel": true },
+    { "array": 4, "type": "f32", "symbol": "channelInfoMultiplier", "channel": true }
   ],
   "TCValues": [
     { "array": 8, "type": "f32", "symbol": "values", "channel": true }
