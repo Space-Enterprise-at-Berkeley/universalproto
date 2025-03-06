@@ -20,7 +20,11 @@
   "AC_1": [
     {
       "channel": 1,
-      "measure": "AC_BREAKWIRE" // Fake
+      "measure": "AC_BURNWIRE"
+    },
+    {
+      "channel": 2,
+      "measure": "AC_BREAKWIRE"
     },
     {
       "channel": 3,

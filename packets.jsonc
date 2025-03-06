@@ -98,6 +98,13 @@
     "writes": [ "ER*" ]
   },
   {
+    "id": 3,
+    "name": "PTChamberAutomation",
+    "payload": "PTChamberAutomation",
+    "reads": [ "GD*" , "AC*" ],
+    "writes": [ "PT*" ]
+  },
+  {
     "id": 4,
     "name": "PTAutomationData",
     "payload": "PTAutomationData",
@@ -253,14 +260,14 @@
   },
   {
     "id": 149,
-    "name": "Launch", // Sent to AC, which forwards it after aborts. Used if there's a breakwire
+    "name": "Launch", // Sent to AC, which forwards it after aborts. Used if there's a burnwire
     "payload": "Launch",
     "reads": [ "AC*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 200,
-    "name": "BeginFlow", // Begin the flow for everything immediately. Used if there is not a breakwire
+    "name": "BeginFlow", // Begin the flow for everything immediately. Used if there is not a burnwire
     "payload": "Launch",
     "reads": [ "*" ],
     "writes": [ "AC*", "GD*" ]
