@@ -9,12 +9,12 @@
     "PT_1": 31,
     "PT_2": 32,
     "PT_3": 33,
-    "PT_HAD": 34,
+    //"PT_HAD": 34,
     "CF_NOS": 42,
     "CF_IPA": 43,
     "TC_1": 51,
     "TC_2": 52,
-    "TC_3": 53,
+    //"TC_3": 53,
     "ER_IPA": 71
   },
   "AC_1": [
@@ -114,11 +114,11 @@
     },
     {
       "channel": 6,
-      "measure": "PT_IPA_INJECTOR"
+      "measure": "PT_NOS_FILL_LINE"
     },
     {
       "channel": 7,
-      "measure": "PT_NOS_FILL_LINE"
+      "measure": "PT_IPA_INJECTOR"
     }
   ],
   "PT_2": [
