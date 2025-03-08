@@ -262,7 +262,7 @@
     "id": 149,
     "name": "Launch", // Sent to AC, which forwards it after aborts. Used if there's a burnwire
     "payload": "Launch",
-    "reads": [ "AC*" ],
+    "reads": [ "*" ],
     "writes": [ "GD*" ]
   },
   {
