@@ -19,11 +19,11 @@
   },
   "AC_1": [
     {
-      "channel": 1,
+      "channel": 0,
       "measure": "AC_BURNWIRE"
     },
     {
-      "channel": 2,
+      "channel": 1,
       "measure": "AC_BREAKWIRE"
     },
     {
