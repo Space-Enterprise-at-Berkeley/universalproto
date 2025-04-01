@@ -368,6 +368,13 @@
     "writes": [ "GD*" ]
   },
   {
+    "id": 215,
+    "name": "ERSetStaticPressureSetpoint",
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
+    "writes": [ "GD*" ]
+  },
+  {
     "id": 201,
     "name": "EndFlow",
     "reads": [ "*" ],
