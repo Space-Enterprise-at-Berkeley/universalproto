@@ -162,7 +162,8 @@
     { "type": "f32", "symbol": "iInner" },
     { "type": "f32", "symbol": "dInner" },
     { "type": "f32", "symbol": "pressureSetpointDropRate" },
-    { "type": "f32", "symbol": "pressureSetpointMinimum" }
+    { "type": "f32", "symbol": "pressureSetpointMinimum" },
+    { "type": "f32", "symbol": "staticPressureSetpoint" }
   ],
   "ERDiagnostic": [
     { "type": "u8", "symbol": "motorDirPass" },

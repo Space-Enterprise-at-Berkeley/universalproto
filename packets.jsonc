@@ -245,6 +245,20 @@
     "writes": [ "GD*" ]
   },
   {
+    "id": 104,
+    "name": "SetCalibrationOffset",
+    "payload": "ChannelPoint",
+    "reads": [ "PT*", "LC*", "ER*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 105,
+    "name": "SetCalibrationMultiplier",
+    "payload": "ChannelPoint",
+    "reads": [ "PT*", "LC*", "ER*" ],
+    "writes": [ "GD*" ]
+  },
+  {
     "id": 124,
     "name": "ACSetAutoventThreshold",
     "payload": "ACAutoventPressures",
@@ -363,6 +377,13 @@
   {
     "id": 214,
     "name": "ERSetPressureSetpointMinimum",
+    "payload": "ERSet",
+    "reads": [ "ER*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 215,
+    "name": "ERSetStaticPressureSetpoint",
     "payload": "ERSet",
     "reads": [ "ER*" ],
     "writes": [ "GD*" ]
