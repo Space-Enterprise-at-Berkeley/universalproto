@@ -89,6 +89,10 @@
     {
       "channel": 6,
       "measure": "AC_IPA_PRESS_FLOW"
+    },
+    {
+      "channel": 7,
+      "measure": "AC_IPA_DOME_RBV"
     }
   ],
   "PT_1": [
@@ -102,7 +106,7 @@
     },
     {
       "channel": 3,
-      "measure": "PT_SOLENOID_PANEL"
+      "measure": "PT_IPA_DOME"
     },
     {
       "channel": 4,
