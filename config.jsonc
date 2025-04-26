@@ -243,6 +243,14 @@
     {
       "channel": 4,
       "measure": "TC_ENGINE_3-4"
+    },
+    {
+      "channel": 5,
+      "measure": "TC_IPA_INJ"
+    },
+    {
+      "channel": 6,
+      "measure": "TC_NOS_INJ"
     }
   ],
   "LC_1": [
