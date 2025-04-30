@@ -251,6 +251,10 @@
     {
       "channel": 6,
       "measure": "TC_NOS_INJ"
+    },
+    {
+      "channel": 7,
+      "measure": "TC_NOS_TANK"
     }
   ],
   "LC_1": [
