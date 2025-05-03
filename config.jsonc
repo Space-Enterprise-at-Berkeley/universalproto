@@ -196,13 +196,13 @@
   ],
   "TC_1": [
     {
-      "channel": 0,
+      "channel": 7,
       "measure": "TC_NOS_INJ"
     }
   ],
   "TC_2": [
     {
-      "channel": 0,
+      "channel": 7,
       "measure": "TC_IPA_INJ"
     }
   ],
