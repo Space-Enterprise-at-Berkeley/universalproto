@@ -14,7 +14,8 @@
     "CF_IPA": 43,
     "TC_1": 51,
     "TC_2": 52,
-    //"TC_3": 53,
+    "TC_3": 53,
+    "TC_4": 54,
     "ER_IPA": 71
   },
   "AC_1": [
@@ -196,6 +197,18 @@
   "TC_1": [
     {
       "channel": 0,
+      "measure": "TC_NOS_INJ"
+    }
+  ],
+  "TC_2": [
+    {
+      "channel": 0,
+      "measure": "TC_IPA_INJ"
+    }
+  ],
+  "TC_3": [
+    {
+      "channel": 0,
       "measure": "TC_ENGINE_1-1"
     },
     {
@@ -227,7 +240,7 @@
       "measure": "TC_ENGINE_2-4"
     }
   ],
-  "TC_2": [
+  "TC_4": [
     {
       "channel": 1,
       "measure": "TC_ENGINE_3-1"
@@ -243,18 +256,6 @@
     {
       "channel": 4,
       "measure": "TC_ENGINE_3-4"
-    },
-    {
-      "channel": 5,
-      "measure": "TC_IPA_INJ"
-    },
-    {
-      "channel": 6,
-      "measure": "TC_NOS_INJ"
-    },
-    {
-      "channel": 7,
-      "measure": "TC_NOS_TANK"
     }
   ],
   "LC_1": [
