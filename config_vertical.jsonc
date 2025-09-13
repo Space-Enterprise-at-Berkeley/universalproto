@@ -3,20 +3,20 @@
   "deviceIds": {
     "AC_1": 11,
     "AC_2": 12,
-    "AC_3": 13,
+    //"AC_3": 13,
     "LC_1": 21,
     "LC_2": 22,
     "PT_1": 31,
     "PT_2": 32,
-    "PT_3": 33,
+    //"PT_3": 33,
     //"PT_HAD": 34,
     "CF_NOS": 42,
     "CF_IPA": 43,
     "TC_1": 51,
     "TC_2": 52,
-    "TC_3": 53,
+    "TC_3": 53
     //"TC_4": 54,
-    "ER_IPA": 71
+    //"ER_IPA": 71
   },
   "AC_1": [
     {
@@ -28,20 +28,20 @@
       "measure": "AC_BREAKWIRE"
     },
     {
-        "channel": 2,
-        "measure": "AC_NOS_MAIN_CLOSE" // NOS Main Press Solenoid (close)
+      "channel": 2,
+      "measure": "AC_NOS_MAIN_PRESS" // NOS Main Press Solenoid (close)
     },
     {
       "channel": 3,
-      "measure": "AC_NOS_MAIN_OPEN" // NOS Main Vent Solenoid (open)
+      "measure": "AC_NOS_MAIN_VENT" // NOS Main Vent Solenoid (open)
     },
     {
       "channel": 4,
-      "measure": "AC_IPA_MAIN_CLOSE" // IPA Main Press Solenoid (close) 
+      "measure": "AC_IPA_MAIN_PRESS" // IPA Main Press Solenoid (close) 
     },
     {
       "channel": 5,
-      "measure": "AC_IPA_MAIN_OPEN" // IPA Main Vent Solenoid (open)
+      "measure": "AC_IPA_MAIN_VENT" // IPA Main Vent Solenoid (open)
     },
     {
       "channel": 7,
@@ -54,12 +54,12 @@
       "measure": "AC_NOS_GEMS"
     },
     {
-        "channel": 1,
-        "measure": "AC_NOS_EMERGENCY_VENT"
+      "channel": 1,
+      "measure": "AC_NOS_EMERGENCY_VENT"
     },
     {
-        "channel": 2,
-        "measure": "AC_NOS_FILL"
+      "channel": 2,
+      "measure": "AC_NOS_FILL"
     },
     {
       "channel": 3,
@@ -69,9 +69,6 @@
       "channel": 4,
       "measure": "AC_NOS_DRAIN"
     }
-  ],
-  "AC_3": [
-    // can i delete this without consequence
   ],
   "PT_1": [
     // channel 0 broken
@@ -113,9 +110,6 @@
       "channel": 1,
       "measure": "PT_PNEUMATICS" // Pneumatics PT
     }
-  ],
-  "PT_3": [
-    // can i delete this without consequence
   ],
   "TC_1": [
     {
