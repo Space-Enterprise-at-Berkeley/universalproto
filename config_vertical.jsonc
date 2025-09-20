@@ -5,16 +5,16 @@
     "AC_2": 12,
     //"AC_3": 13,
     "LC_1": 21,
-    "LC_2": 22,
+    // "LC_2": 22,
     "PT_1": 31,
     "PT_2": 32,
     //"PT_3": 33,
     //"PT_HAD": 34,
     "CF_NOS": 42,
-    "CF_IPA": 43,
-    "TC_1": 51,
-    "TC_2": 52,
-    "TC_3": 53
+    // "CF_IPA": 43,
+    "TC_1": 51
+    // "TC_2": 52,
+    // "TC_3": 53
     //"TC_4": 54,
     //"ER_IPA": 71
   },
@@ -28,20 +28,12 @@
       "measure": "AC_BREAKWIRE"
     },
     {
-      "channel": 2,
-      "measure": "AC_NOS_MAIN_PRESS" // NOS Main Press Solenoid (close)
-    },
-    {
-      "channel": 3,
-      "measure": "AC_NOS_MAIN_VENT" // NOS Main Vent Solenoid (open)
-    },
-    {
       "channel": 4,
-      "measure": "AC_IPA_MAIN_PRESS" // IPA Main Press Solenoid (close) 
+      "measure": "AC_NOS_MAIN"
     },
     {
       "channel": 5,
-      "measure": "AC_IPA_MAIN_VENT" // IPA Main Vent Solenoid (open)
+      "measure": "AC_IPA_MAIN"
     },
     {
       "channel": 7,
@@ -77,8 +69,8 @@
       "measure": "PT_NOS_TANK" // NOS TANK PT
     },
     {
-        "channel": 2,
-        "measure": "PT_NOS_POPPET" // NOS Poppet Press PT
+      "channel": 2,
+      "measure": "PT_NOS_POPPET" // NOS Poppet Press PT
     },
     {
       "channel": 3,
@@ -113,50 +105,36 @@
   ],
   "TC_1": [
     {
-      "channel": 7,
-      "measure": "TC_NOS_INJ"
-    }
-  ],
-  "TC_2": [
-    {
-      "channel": 7,
-      "measure": "TC_IPA_INJ"
-    }
-  ],
-  "TC_3": [
-    {
-      "channel": 5,
-      "measure": "TC_NOS_TANK"
-    }
-  ],
-  "TC_4": [
+      "channel": 0,
+      "measure": "TC_ENGINE_0"
+    },
     {
       "channel": 1,
-      "measure": "TC_ENGINE_2-1"
+      "measure": "TC_ENGINE_1"
     },
     {
       "channel": 2,
-      "measure": "TC_ENGINE_2-2"
+      "measure": "TC_ENGINE_2"
     },
     {
       "channel": 3,
-      "measure": "TC_ENGINE_2-4"
+      "measure": "TC_ENGINE_3"
     },
     {
       "channel": 4,
-      "measure": "TC_ENGINE_3-1"
+      "measure": "TC_ENGINE_4"
     },
     {
       "channel": 5,
-      "measure": "TC_ENGINE_3-2"
+      "measure": "TC_ENGINE_5"
     },
     {
       "channel": 6,
-      "measure": "TC_ENGINE_3-3"
+      "measure": "TC_ENGINE_6"
     },
     {
       "channel": 7,
-      "measure": "TC_ENGINE_3-4"
+      "measure": "TC_ENGINE_7"
     }
   ],
   "LC_1": [
@@ -171,16 +149,6 @@
     {
       "channel": 3,
       "measure": "LC_ENGINE_3"
-    }
-  ],
-  "LC_2": [
-    {
-      "channel": 0,
-      "measure": "LC_NOS"
-    },
-    {
-      "channel": 2,
-      "measure": "LC_IPA"
     }
   ]
 }
