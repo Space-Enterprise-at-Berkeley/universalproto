@@ -125,6 +125,11 @@
     { "type": "u8", "symbol": "automationState" },
     { "type": "f32", "symbol": "fillDp" }
   ],
+  "BaroValues": [
+    { "type": "f32", "symbol": "altitude" },
+    { "type": "f32", "symbol": "pressure" },
+    { "type": "f32", "symbol": "temperature" }
+  ],
   "DutyCycle": [
     { "type": "f32", "symbol": "gemsDutyCycle" }
   ],
