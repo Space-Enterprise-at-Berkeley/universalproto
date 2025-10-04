@@ -147,6 +147,13 @@
     "writes": [ "ER*" ]
   },
   {
+    "id": 5,
+    "name": "BaroValues"
+    "payload": "BaroValues"
+    "reads": [ "GD*" ],
+    "writes": [ "CFC*" ]
+  },
+  {
     "id": 6,
     "name": "ACPotentiometers",
     "payload": "ACPotentiometers",
