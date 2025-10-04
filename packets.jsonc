@@ -148,8 +148,8 @@
   },
   {
     "id": 5,
-    "name": "BaroValues"
-    "payload": "BaroValues"
+    "name": "BaroValues",
+    "payload": "BaroValues",
     "reads": [ "GD*" ],
     "writes": [ "CFC*" ]
   },
