@@ -2,8 +2,8 @@
   "version": 1,
   "deviceIds": {
     "AC_1": 11,
-    "AC_2": 12,
-    //"AC_3": 13,
+    //"AC_2": 12,
+    "AC_3": 13,
     "LC_1": 21,
     // "LC_2": 22,
     "PT_1": 31,
@@ -61,7 +61,7 @@
   "PT_1": [
     // channel 0 broken
     {
-      "channel": 2,
+      "channel": 0,
       "measure": "PT_NOS_POPPET" // NOS Poppet Press PT
     },
     {
@@ -92,7 +92,7 @@
       "measure": "PT_NOS_TANK"
     },
     {
-      "channel": 6,
+      "channel": 5,
       "measure": "PT_IPA_TANK"
     },
     {
