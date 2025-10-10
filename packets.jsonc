@@ -440,5 +440,12 @@
     "payload": "TCAbortLimits",
     "reads": [ "GD*" ],
     "writes": [ "TC*" ]
+  },
+  {
+    "id": 7,
+    "name": "FCTemperature",
+    "payload": "FCTemperature",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
   }
 ]

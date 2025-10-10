@@ -226,5 +226,8 @@
   ],
   "TCAbortLimits": [
     { "array": 8, "type": "f32", "symbol": "temps", "channel": true }
+  ],
+  "FCTemperature": [
+    {"type": "f32", "symbol": "temp"}
   ]
 }
