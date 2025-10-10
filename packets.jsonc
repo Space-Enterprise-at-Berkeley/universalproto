@@ -433,5 +433,12 @@
     "payload": "TCAbortLimits",
     "reads": [ "GD*" ],
     "writes": [ "TC*" ]
+  },
+  {
+    "id": 81,
+    "name": "MagFillRead",
+    "payload": "MagFillRead",
+    "reads": [ "GD*" ],
+    "writes": [ "MF" ]
   }
 ]
