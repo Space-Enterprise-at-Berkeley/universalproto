@@ -229,5 +229,36 @@
   ],
   "FCTemperature": [
     {"type": "f32", "symbol": "temp"}
+  ],
+  "DummyData1s": [
+    { "type": "u32", "symbol": "dummy1" },
+    { "type": "u32", "symbol": "dummy2" },
+    { "type": "u32", "symbol": "dummy3" },
+    { "type": "u32", "symbol": "dummy4" },
+    { "type": "u32", "symbol": "counter" }
+  ],
+  "DummyData100ms": [
+    { "type": "u32", "symbol": "dummy1" },
+    { "type": "u32", "symbol": "dummy2" },
+    { "type": "u32", "symbol": "dummy3" },
+    { "type": "u32", "symbol": "dummy4" },
+    { "type": "u32", "symbol": "dummy5" },
+    { "type": "u32", "symbol": "dummy6" },
+    { "type": "u32", "symbol": "dummy7" },
+    { "type": "u32", "symbol": "dummy8" },
+    { "type": "u32", "symbol": "counter" }
+  ],
+  "DummyData10ms": [
+    { "type": "u32", "symbol": "dummy1" },
+    { "type": "u32", "symbol": "dummy2" },
+    { "type": "u32", "symbol": "dummy3" },
+    { "type": "u32", "symbol": "dummy4" },
+    { "type": "u32", "symbol": "dummy5" },
+    { "type": "u32", "symbol": "counter" }
+  ],
+  "DummyData1ms": [
+    { "type": "u32", "symbol": "dummy1" },
+    { "type": "u32", "symbol": "dummy2" },
+    { "type": "u32", "symbol": "counter" }
   ]
 }
