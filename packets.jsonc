@@ -45,8 +45,8 @@
     "id": 2,
     "name": "TCValues",
     "payload": "TCValues",
-    "reads": [ "GD*" ],
-    "writes": [ "TC*" ]
+    "reads": [ "GD*", "AC*" ],
+    "writes": [ "TC*", "SE" ]
   },
   {
     "id": 2,
@@ -179,7 +179,7 @@
     "name": "GemsDutyCycle",
     "payload": "DutyCycle",
     "reads": [ "GD*" ],
-    "writes": [ "AC*" ]
+    "writes": [ "AC*", "SE" ]
   },
   {
     "id": 8,
@@ -214,7 +214,7 @@
     "name": "ACActuateActuator",
     "payload": "ACActuateActuator",
     "reads": [ "AC*" ],
-    "writes": [ "GD*" ]
+    "writes": [ "GD*", "SE" ]
   },
   {
     "id": 100,
