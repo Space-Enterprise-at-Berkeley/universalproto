@@ -147,6 +147,13 @@
     "writes": [ "ER*" ]
   },
   {
+    "id": 5,
+    "name": "BaroValues",
+    "payload": "BaroValues",
+    "reads": [ "GD*" ],
+    "writes": [ "CFC*" ]
+  },
+  {
     "id": 6,
     "name": "ACPotentiometers",
     "payload": "ACPotentiometers",
@@ -433,5 +440,40 @@
     "payload": "TCAbortLimits",
     "reads": [ "GD*" ],
     "writes": [ "TC*" ]
+  },
+  {
+    "id": 7,
+    "name": "FCTemperature",
+    "payload": "FCTemperature",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 150,
+    "name": "DummyData1s",
+    "payload": "DummyData1s",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 151,
+    "name": "DummyData100ms",
+    "payload": "DummyData100ms",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 152,
+    "name": "DummyData10ms",
+    "payload": "DummyData10ms",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 153,
+    "name": "DummyData1ms",
+    "payload": "DummyData1ms",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
   }
 ]
