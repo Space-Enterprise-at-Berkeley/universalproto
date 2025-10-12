@@ -260,5 +260,11 @@
     { "type": "u32", "symbol": "dummy1" },
     { "type": "u32", "symbol": "dummy2" },
     { "type": "u32", "symbol": "counter" }
+  ],
+  "DummyRates": [
+    { "type": "u32", "symbol": "byteRate" },
+    { "type": "u32", "symbol": "packetRate" },
+    { "type": "u32", "symbol": "errorCount" },
+    { "type": "u32", "symbol": "timeoutCount"}
   ]
 }

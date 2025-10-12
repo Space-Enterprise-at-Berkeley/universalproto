@@ -475,5 +475,12 @@
     "payload": "DummyData1ms",
     "reads": [ "GD*" ],
     "writes": [ "FC*" ]
+  },
+  {
+    "id": 154,
+    "name": "DummyRates",
+    "payload": "DummyRates",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
   }
 ]
