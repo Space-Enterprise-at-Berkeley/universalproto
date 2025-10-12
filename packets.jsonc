@@ -11,7 +11,7 @@
     "name": "24VSupplyStats",
     "payload": "24VSupplyStats",
     "reads": [ "GD*" ],
-    "writes": [ "PT*", "TC*", "LC*", "AC*" ]
+    "writes": [ "PT*", "TC*", "LC*", "AC*", "FC*" ]
   },
   {
     "id": 1,
