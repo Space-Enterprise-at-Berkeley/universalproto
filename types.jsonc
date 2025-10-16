@@ -223,6 +223,6 @@
     { "array": 8, "type": "f32", "symbol": "temps", "channel": true }
   ],
   "MagFillReadLevel": [
-    {"type": "f32", "symbol": "cm"}
+    {"type": "f32", "symbol": "PistonDistance"}
   ]
 }
