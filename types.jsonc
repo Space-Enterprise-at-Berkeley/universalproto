@@ -222,7 +222,7 @@
   "TCAbortLimits": [
     { "array": 8, "type": "f32", "symbol": "temps", "channel": true }
   ],
-  "MagFillRead": [
+  "MagFillReadLevel": [
     {"type": "f32", "symbol": "cm"}
   ]
 }
