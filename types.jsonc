@@ -266,5 +266,9 @@
     { "type": "u32", "symbol": "packetRate" },
     { "type": "u32", "symbol": "errorCount" },
     { "type": "u32", "symbol": "timeoutCount"}
-  ]
+  ],
+  "EnableDisable": {
+    "ENABLE": 1,
+    "DISABLE": 0
+  }
 }

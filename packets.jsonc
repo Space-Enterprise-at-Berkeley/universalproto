@@ -482,5 +482,33 @@
     "payload": "DummyRates",
     "reads": [ "GD*" ],
     "writes": [ "FC*" ]
+  },
+  {
+    "id": 110,
+    "name": "FCEnableTelemetryRadio",
+    "payload": "EnableDisable",
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 111,
+    "name": "FCEraseAndStartRecordingBB",
+    "payload": null,
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 112,
+    "name": "FCPlaybackBB",
+    "payload": null,
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+    {
+    "id": 113,
+    "name": "FCEnableRuncamPDB",
+    "payload": "EnableDisable",
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
   }
 ]
