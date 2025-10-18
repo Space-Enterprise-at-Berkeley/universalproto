@@ -266,5 +266,12 @@
     { "type": "u32", "symbol": "packetRate" },
     { "type": "u32", "symbol": "errorCount" },
     { "type": "u32", "symbol": "timeoutCount"}
+  ],
+  "EnableDisableEnum": {
+    "ENABLE": 1,
+    "DISABLE": 0
+  },
+  "EnableDisable": [
+    {"type": "u8", "enum": "EnableDisableEnum", "symbol": "action"}
   ]
 }
