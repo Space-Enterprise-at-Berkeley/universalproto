@@ -29,6 +29,13 @@
   },
   {
     "id": 2,
+    "name": "RTFlightTracking",
+    "payload": "TrackingState",
+    "reads": [ "GD*" ],
+    "writes": [ "RT*" ]
+  },
+  {
+    "id": 2,
     "name": "PTValues",
     "payload": "PTValues",
     "reads": [ "GD*" ],
@@ -513,15 +520,43 @@
   },
   {
     "id": 1,
-    "name": "RotatorState",
+    "name": "RTRotatorState",
     "payload": "RotatorState",
-    "reads": [ "FC*" ],
+    "reads": [ "RT*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 100,
-    "name": "EnableRotation",
+    "name": "RTEnableRotation",
     "payload": "EnableDisable",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 101,
+    "name": "RTEnableFlightTracking",
+    "payload": "EnableDisable",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 102,
+    "name": "RTSetGroundElevation",
+    "payload": "Degrees",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 103,
+    "name": "RTSetGroundAzimuth",
+    "payload": "Degrees",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 104,
+    "name": "RTRunDiagnostic",
+    "payload": null,
     "reads": [ "RT*" ],
     "writes": [ "GD*" ]
   }

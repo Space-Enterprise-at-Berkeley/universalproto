@@ -279,5 +279,8 @@
     {"type": "f32", "symbol": "azimuthDegrees"},
     {"type": "f32", "symbol": "elevationSetpoint"},
     {"type": "f32", "symbol": "azimuthSetpoint"}
+  ],
+  "TrackingState": [
+    {"array": 9, "type": "f32", "symbol": "predictedState"}
   ]
 }
