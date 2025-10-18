@@ -41,8 +41,12 @@
       "measure": "AC_IPA_MAIN"
     },
     {
+      "channel": 6,
+      "measure": "AC_POPPET_1"
+    },
+    {
       "channel": 7,
-      "measure": "AC_IGNITER"
+      "measure": "AC_POPPET_2"
     }
   ],
   "AC_2": [
@@ -103,12 +107,16 @@
       "measure": "PT_NOS_TANK"
     },
     {
-      "channel": 2,
+      "channel": 1,
       "measure": "PT_MAIN_VALVE"
     },
     {
+      "channel": 2,
+      "measure": "PT_PNEUMATICS"
+    },
+    {
       "channel": 3,
-      "measure": "PT_IPA_DOME"
+      "measure": "PT_IPA_POPPET"
     },
     {
       "channel": 4,
@@ -116,7 +124,7 @@
     },
     {
       "channel": 5,
-      "measure": "PT_NOS_INJECTOR"
+      "measure": "PT_NOS_POPPET"
     },
     {
       "channel": 6,
