@@ -273,5 +273,11 @@
   },
   "EnableDisable": [
     {"type": "u8", "enum": "EnableDisableEnum", "symbol": "action"}
+  ],
+  "RotatorState": [
+    {"type": "f32", "symbol": "elevationDegrees"},
+    {"type": "f32", "symbol": "azimuthDegrees"},
+    {"type": "f32", "symbol": "elevationSetpoint"},
+    {"type": "f32", "symbol": "azimuthSetpoint"}
   ]
 }

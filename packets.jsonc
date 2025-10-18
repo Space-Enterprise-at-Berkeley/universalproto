@@ -504,11 +504,25 @@
     "reads": [ "FC*" ],
     "writes": [ "GD*" ]
   },
-    {
+  {
     "id": 113,
     "name": "FCEnableRuncamPDB",
     "payload": "EnableDisable",
     "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 1,
+    "name": "RotatorState",
+    "payload": "RotatorState",
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 100,
+    "name": "EnableRotation",
+    "payload": "EnableDisable",
+    "reads": [ "RT*" ],
     "writes": [ "GD*" ]
   }
 ]
