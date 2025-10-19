@@ -19,10 +19,10 @@
     "TC_4": 54,
     "ER_IPA": 71
   },
-  "AC_1": [
+  "AC_3": [
     {
       "channel": 0,
-      "measure": "AC_BURNWIRE"
+      "measure": "AC_POPPET_2"
     },
     {
       "channel": 1,
@@ -43,10 +43,6 @@
     {
       "channel": 6,
       "measure": "AC_POPPET_1"
-    },
-    {
-      "channel": 7,
-      "measure": "AC_POPPET_2"
     }
   ],
   "AC_2": [
@@ -75,13 +71,13 @@
       "measure": "AC_NOS_FILL"
     }
   ],
-  "AC_3": [
+  "AC_1": [
     {
       "channel": 0,
       "measure": "AC_IPA_GEMS"
     },
     {
-      "channel": 2,
+      "channel": 1,
       "measure": "AC_IPA_SLOW_VENT"
     },
     {
@@ -107,10 +103,6 @@
       "measure": "PT_NOS_TANK"
     },
     {
-      "channel": 1,
-      "measure": "PT_MAIN_VALVE"
-    },
-    {
       "channel": 2,
       "measure": "PT_PNEUMATICS"
     },
@@ -132,7 +124,7 @@
     },
     {
       "channel": 7,
-      "measure": "PT_IPA_INJECTOR"
+      "measure": "PT_MAIN_VALVE"
     }
   ],
   "PT_2": [
