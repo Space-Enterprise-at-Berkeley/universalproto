@@ -282,5 +282,8 @@
   ],
   "TrackingState": [
     {"array": 9, "type": "f32", "symbol": "predictedState"}
+  ],
+  "Degrees": [
+    {"type": "f32", "symbol": "degrees"}
   ]
 }
