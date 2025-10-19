@@ -459,36 +459,36 @@
     "id": 150,
     "name": "DummyData1s",
     "payload": "DummyData1s",
-    "reads": [ "GD*" ],
+    "reads": [ "GD*", "SE" ],
     "writes": [ "FC*" ]
   },
   {
     "id": 151,
     "name": "DummyData100ms",
     "payload": "DummyData100ms",
-    "reads": [ "GD*" ],
+    "reads": [ "GD*", "SE" ],
     "writes": [ "FC*" ]
   },
   {
     "id": 152,
     "name": "DummyData10ms",
     "payload": "DummyData10ms",
-    "reads": [ "GD*" ],
+    "reads": [ "GD*", "SE" ],
     "writes": [ "FC*" ]
   },
   {
     "id": 153,
     "name": "DummyData1ms",
     "payload": "DummyData1ms",
-    "reads": [ "GD*" ],
+    "reads": [ "GD*", "SE" ],
     "writes": [ "FC*" ]
   },
   {
     "id": 154,
     "name": "DummyRates",
     "payload": "DummyRates",
-    "reads": [ "GD*" ],
-    "writes": [ "FC*" ]
+    "reads": [ "GD*", "FC*" ],
+    "writes": [ "FC*", "SE" ]
   },
   {
     "id": 110,
