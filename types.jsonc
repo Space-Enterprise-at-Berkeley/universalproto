@@ -266,5 +266,24 @@
     { "type": "u32", "symbol": "packetRate" },
     { "type": "u32", "symbol": "errorCount" },
     { "type": "u32", "symbol": "timeoutCount"}
+  ],
+  "EnableDisableEnum": {
+    "ENABLE": 1,
+    "DISABLE": 0
+  },
+  "EnableDisable": [
+    {"type": "u8", "enum": "EnableDisableEnum", "symbol": "action"}
+  ],
+  "RotatorState": [
+    {"type": "f32", "symbol": "elevationDegrees"},
+    {"type": "f32", "symbol": "azimuthDegrees"},
+    {"type": "f32", "symbol": "elevationSetpoint"},
+    {"type": "f32", "symbol": "azimuthSetpoint"}
+  ],
+  "TrackingState": [
+    {"array": 9, "type": "f32", "symbol": "predictedState"}
+  ],
+  "Degrees": [
+    {"type": "f32", "symbol": "degrees"}
   ]
 }
