@@ -452,8 +452,8 @@
     "id": 81,
     "name": "MagFillReadLevel",
     "payload": "MagFillReadLevel",
-    "reads": [ "MF" ],
-    "writes": [ "GD*" ]
+    "reads": [ "GD*" ],
+    "writes": [ "MF" ]
   },
   {
     "id": 7,
