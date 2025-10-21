@@ -11,7 +11,7 @@
     "name": "24VSupplyStats",
     "payload": "24VSupplyStats",
     "reads": [ "GD*" ],
-    "writes": [ "PT*", "TC*", "LC*", "AC*" ]
+    "writes": [ "PT*", "TC*", "LC*", "AC*", "FC*" ]
   },
   {
     "id": 1,
@@ -26,6 +26,13 @@
     "payload": "ERPressureTelemetry",
     "reads": [ "GD*" ],
     "writes": [ "ER*" ]
+  },
+  {
+    "id": 2,
+    "name": "RTFlightTracking",
+    "payload": "TrackingState",
+    "reads": [ "GD*" ],
+    "writes": [ "RT*" ]
   },
   {
     "id": 2,
@@ -45,8 +52,8 @@
     "id": 2,
     "name": "TCValues",
     "payload": "TCValues",
-    "reads": [ "GD*" ],
-    "writes": [ "TC*" ]
+    "reads": [ "GD*", "AC*" ],
+    "writes": [ "TC*", "SE" ]
   },
   {
     "id": 2,
@@ -147,6 +154,13 @@
     "writes": [ "ER*" ]
   },
   {
+    "id": 5,
+    "name": "BaroValues",
+    "payload": "BaroValues",
+    "reads": [ "GD*" ],
+    "writes": [ "CFC*" ]
+  },
+  {
     "id": 6,
     "name": "ACPotentiometers",
     "payload": "ACPotentiometers",
@@ -179,7 +193,7 @@
     "name": "GemsDutyCycle",
     "payload": "DutyCycle",
     "reads": [ "GD*" ],
-    "writes": [ "AC*" ]
+    "writes": [ "AC*", "SE" ]
   },
   {
     "id": 8,
@@ -214,7 +228,7 @@
     "name": "ACActuateActuator",
     "payload": "ACActuateActuator",
     "reads": [ "AC*" ],
-    "writes": [ "GD*" ]
+    "writes": [ "GD*", "SE" ]
   },
   {
     "id": 100,
@@ -439,6 +453,118 @@
     "name": "MagFillReadLevel",
     "payload": "MagFillReadLevel",
     "reads": [ "MF" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 7,
+    "name": "FCTemperature",
+    "payload": "FCTemperature",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 150,
+    "name": "DummyData1s",
+    "payload": "DummyData1s",
+    "reads": [ "GD*", "SE" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 151,
+    "name": "DummyData100ms",
+    "payload": "DummyData100ms",
+    "reads": [ "GD*", "SE" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 152,
+    "name": "DummyData10ms",
+    "payload": "DummyData10ms",
+    "reads": [ "GD*", "SE" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 153,
+    "name": "DummyData1ms",
+    "payload": "DummyData1ms",
+    "reads": [ "GD*", "SE" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 154,
+    "name": "DummyRates",
+    "payload": "DummyRates",
+    "reads": [ "GD*", "FC*" ],
+    "writes": [ "FC*", "SE" ]
+  },
+  {
+    "id": 110,
+    "name": "FCEnableTelemetryRadio",
+    "payload": "EnableDisable",
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 111,
+    "name": "FCEraseAndStartRecordingBB",
+    "payload": null,
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 112,
+    "name": "FCPlaybackBB",
+    "payload": null,
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 113,
+    "name": "FCEnableRuncamPDB",
+    "payload": "EnableDisable",
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 1,
+    "name": "RTRotatorState",
+    "payload": "RotatorState",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 100,
+    "name": "RTEnableRotation",
+    "payload": "EnableDisable",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 101,
+    "name": "RTEnableFlightTracking",
+    "payload": "EnableDisable",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 102,
+    "name": "RTSetGroundElevation",
+    "payload": "Degrees",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 103,
+    "name": "RTSetGroundAzimuth",
+    "payload": "Degrees",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 104,
+    "name": "RTRunDiagnostic",
+    "payload": null,
+    "reads": [ "RT*" ],
     "writes": [ "GD*" ]
   }
 ]
