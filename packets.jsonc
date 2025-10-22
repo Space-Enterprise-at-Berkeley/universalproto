@@ -541,14 +541,14 @@
   },
   {
     "id": 102,
-    "name": "RTSetGroundElevation",
+    "name": "RTSetElevation",
     "payload": "Degrees",
     "reads": [ "RT*" ],
     "writes": [ "GD*" ]
   },
   {
     "id": 103,
-    "name": "RTSetGroundAzimuth",
+    "name": "RTSetAzimuth",
     "payload": "Degrees",
     "reads": [ "RT*" ],
     "writes": [ "GD*" ]
