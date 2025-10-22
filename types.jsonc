@@ -227,6 +227,9 @@
   "TCAbortLimits": [
     { "array": 8, "type": "f32", "symbol": "temps", "channel": true }
   ],
+  "MagFillReadLevel": [
+    {"type": "f32", "symbol": "PistonDistance"}
+  ],
   "FCTemperature": [
     {"type": "f32", "symbol": "temp"}
   ],

@@ -449,6 +449,13 @@
     "writes": [ "TC*" ]
   },
   {
+    "id": 81,
+    "name": "MagFillReadLevel",
+    "payload": "MagFillReadLevel",
+    "reads": [ "GD*" ],
+    "writes": [ "MF" ]
+  },
+  {
     "id": 7,
     "name": "FCTemperature",
     "payload": "FCTemperature",
