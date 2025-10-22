@@ -529,8 +529,15 @@
     "id": 1,
     "name": "RTRotatorState",
     "payload": "RotatorState",
-    "reads": [ "RT*" ],
-    "writes": [ "GD*" ]
+    "reads": [ "GD*" ],
+    "writes": [ "RT*" ]
+  },
+  {
+    "id": 2,
+    "name": "RTTrackingState",
+    "payload": "TrackingState",
+    "reads": [ "GD*" ],
+    "writes": [ "RT*" ]
   },
   {
     "id": 100,
