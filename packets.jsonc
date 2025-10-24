@@ -29,6 +29,13 @@
   },
   {
     "id": 2,
+    "name": "RTFlightTracking",
+    "payload": "TrackingState",
+    "reads": [ "GD*" ],
+    "writes": [ "RT*" ]
+  },
+  {
+    "id": 2,
     "name": "PTValues",
     "payload": "PTValues",
     "reads": [ "GD*" ],
@@ -442,6 +449,13 @@
     "writes": [ "TC*" ]
   },
   {
+    "id": 81,
+    "name": "MagFillReadLevel",
+    "payload": "MagFillReadLevel",
+    "reads": [ "GD*" ],
+    "writes": [ "MF" ]
+  },
+  {
     "id": 7,
     "name": "FCTemperature",
     "payload": "FCTemperature",
@@ -452,35 +466,112 @@
     "id": 150,
     "name": "DummyData1s",
     "payload": "DummyData1s",
-    "reads": [ "GD*" ],
+    "reads": [ "GD*", "SE" ],
     "writes": [ "FC*" ]
   },
   {
     "id": 151,
     "name": "DummyData100ms",
     "payload": "DummyData100ms",
-    "reads": [ "GD*" ],
+    "reads": [ "GD*", "SE" ],
     "writes": [ "FC*" ]
   },
   {
     "id": 152,
     "name": "DummyData10ms",
     "payload": "DummyData10ms",
-    "reads": [ "GD*" ],
+    "reads": [ "GD*", "SE" ],
     "writes": [ "FC*" ]
   },
   {
     "id": 153,
     "name": "DummyData1ms",
     "payload": "DummyData1ms",
-    "reads": [ "GD*" ],
+    "reads": [ "GD*", "SE" ],
     "writes": [ "FC*" ]
   },
   {
     "id": 154,
     "name": "DummyRates",
     "payload": "DummyRates",
+    "reads": [ "GD*", "FC*" ],
+    "writes": [ "FC*", "SE" ]
+  },
+  {
+    "id": 110,
+    "name": "FCEnableTelemetryRadio",
+    "payload": "EnableDisable",
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 111,
+    "name": "FCEraseAndStartRecordingBB",
+    "payload": null,
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 112,
+    "name": "FCPlaybackBB",
+    "payload": null,
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 113,
+    "name": "FCEnableRuncamPDB",
+    "payload": "EnableDisable",
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 1,
+    "name": "RTRotatorState",
+    "payload": "RotatorState",
     "reads": [ "GD*" ],
-    "writes": [ "FC*" ]
+    "writes": [ "RT*" ]
+  },
+  {
+    "id": 2,
+    "name": "RTTrackingState",
+    "payload": "TrackingState",
+    "reads": [ "GD*" ],
+    "writes": [ "RT*" ]
+  },
+  {
+    "id": 100,
+    "name": "RTEnableRotation",
+    "payload": "EnableDisable",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 101,
+    "name": "RTEnableFlightTracking",
+    "payload": "EnableDisable",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 102,
+    "name": "RTSetElevation",
+    "payload": "Degrees",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 103,
+    "name": "RTSetAzimuth",
+    "payload": "Degrees",
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id": 104,
+    "name": "RTRunDiagnostic",
+    "payload": null,
+    "reads": [ "RT*" ],
+    "writes": [ "GD*" ]
   }
 ]
