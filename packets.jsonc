@@ -151,7 +151,7 @@
     "name": "BaroValues",
     "payload": "BaroValues",
     "reads": [ "GD*" ],
-    "writes": [ "CFC*" ]
+    "writes": [ "FC*" ]
   },
   {
     "id": 6,
