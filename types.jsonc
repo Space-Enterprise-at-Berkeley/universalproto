@@ -227,6 +227,9 @@
   "TCAbortLimits": [
     { "array": 8, "type": "f32", "symbol": "temps", "channel": true }
   ],
+  "MagFillReadLevel": [
+    {"type": "f32", "symbol": "PistonDistance"}
+  ],
   "FCTemperature": [
     {"type": "f32", "symbol": "temp"}
   ],
@@ -275,13 +278,25 @@
     {"type": "u8", "enum": "EnableDisableEnum", "symbol": "action"}
   ],
   "RotatorState": [
-    {"type": "f32", "symbol": "elevationDegrees"},
-    {"type": "f32", "symbol": "azimuthDegrees"},
-    {"type": "f32", "symbol": "elevationSetpoint"},
-    {"type": "f32", "symbol": "azimuthSetpoint"}
+    {"type": "f32", "symbol": "elvPos"},
+    {"type": "f32", "symbol": "elvRefPos"},
+    {"type": "f32", "symbol": "elvVel"},
+    {"type": "f32", "symbol": "elvRefVel"},
+    {"type": "f32", "symbol": "aziPos"},
+    {"type": "f32", "symbol": "aziRefPos"},
+    {"type": "f32", "symbol": "aziVel"},
+    {"type": "f32", "symbol": "aziRefVel"}
   ],
   "TrackingState": [
-    {"array": 9, "type": "f32", "symbol": "predictedState"}
+    {"type": "f32", "symbol": "XPos"},
+    {"type": "f32", "symbol": "XVel"},
+    {"type": "f32", "symbol": "XAccel"},
+    {"type": "f32", "symbol": "YPos"},
+    {"type": "f32", "symbol": "YVel"},
+    {"type": "f32", "symbol": "YAccel"},
+    {"type": "f32", "symbol": "ZPos"},
+    {"type": "f32", "symbol": "ZVel"},
+    {"type": "f32", "symbol": "ZAccel"}
   ],
   "Degrees": [
     {"type": "f32", "symbol": "degrees"}
