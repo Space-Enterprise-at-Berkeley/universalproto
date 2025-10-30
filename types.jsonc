@@ -228,7 +228,10 @@
     { "array": 8, "type": "f32", "symbol": "temps", "channel": true }
   ],
   "MagFillReadLevel": [
-    {"type": "f32", "symbol": "PistonDistance"}
+    {"type": "u32", "symbol": "PistonDistance"}
+  ],
+  "MagfillCalibrate": [
+    {"type": "u32", "symbol": "calibration"}
   ],
   "FCTemperature": [
     {"type": "f32", "symbol": "temp"}
