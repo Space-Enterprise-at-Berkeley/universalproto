@@ -230,7 +230,7 @@
   "MagFillReadLevel": [
     {"type": "u32", "symbol": "PistonDistance"}
   ],
-  "MagfillCalibrate": [
+  "MagFillCalibrate": [
     {"type": "u32", "symbol": "calibration"}
   ],
   "FCTemperature": [
