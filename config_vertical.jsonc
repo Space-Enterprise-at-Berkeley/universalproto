@@ -32,11 +32,11 @@
     },
     {
       "channel": 2,
-      "measure": "AC_NOS_MAIN"
+      "measure": "AC_PRESS_POPPET"
     },
     {
       "channel": 3,
-      "measure": "AC_IPA_MAIN"
+      "measure": "AC_VENT_POPPET"
     },
     {
       "channel": 4,
