@@ -1,7 +1,7 @@
 {
   "version": 1,
   "deviceIds": {
-    //"AC_1": 11, // broken??
+    "AC_1": 11, // broken??
     "AC_2": 12,
     "AC_3": 13,
     "LC_1": 21,
@@ -9,7 +9,7 @@
     "PT_1": 31,
     "PT_2": 32,
     "PT_3": 33,
-    //"PT_HAD": 34,
+    // "PT_HAD": 34,
     "SE": 41,
     "CF_NOS": 42,
     "CF_IPA": 43,
@@ -84,32 +84,20 @@
       "measure": "AC_NOS_FILL"
     }
   ],
-  // "AC_3": [
-  //   {
-  //     "channel": 0,
-  //     "measure": "AC_IPA_GEMS"
-  //   },
-  //   {
-  //     "channel": 1,
-  //     "measure": "AC_IPA_SLOW_VENT"
-  //   },
-  //   {
-  //     "channel": 3,
-  //     "measure": "AC_IPA_DOME_RBV"
-  //   },
-  //   {
-  //     "channel": 4,
-  //     "measure": "AC_IPA_EMERGENCY_VENT"
-  //   },
-  //   {
-  //     "channel": 5,
-  //     "measure": "AC_IPA_DRAIN"
-  //   },
-  //   {
-  //     "channel": 6,
-  //     "measure": "AC_IPA_PRESS_FLOW"
-  //   }
-  // ],
+  "AC_1": [
+    {
+      "channel": 0,
+      "measure": "AC_IGNITER"
+    },
+    {
+      "channel": 1,
+      "measure": "AC_BURNWIRE"
+    },
+    {
+      "channel": 2,
+      "measure": "AC_BREAKWIRE"
+    }
+  ],
   "PT_1": [
     {
       "channel": 0,
