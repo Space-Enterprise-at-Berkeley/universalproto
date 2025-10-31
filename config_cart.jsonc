@@ -47,18 +47,18 @@
     },
     {
       "channel": 6,
-      "measure": "AC_IPA_PRESS_FLOW"
+      "measure": "AC_ARM"
     }
   ],
   "AC_2": [
     {
       "channel": 0,
-      "measure": "AC_ARM"
-    },
-    {
-      "channel": 1,
       "measure": "AC_NOS_GEMS"
     },
+    // {
+    //   "channel": 1,
+    //   "measure": "AC_NOS_GEMS"
+    // },
     {
       "channel": 2,
       "measure": "AC_NOS_MAIN"
