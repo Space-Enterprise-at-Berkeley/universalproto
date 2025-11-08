@@ -470,6 +470,20 @@
     "writes": [ "FC*" ]
   },
   {
+    "id": 8,
+    "name": "LowIMUValues",
+    "payload": "LowIMUValues",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 9,
+    "name": "HighIMUValues",
+    "payload": "HighIMUValues",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
     "id": 150,
     "name": "DummyData1s",
     "payload": "DummyData1s",
