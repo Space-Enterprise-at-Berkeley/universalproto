@@ -130,6 +130,19 @@
     { "type": "f32", "symbol": "pressure" },
     { "type": "f32", "symbol": "temperature" }
   ],
+  "LowIMUValues": [
+    { "type": "f32", "symbol": "accelX" },
+    { "type": "f32", "symbol": "accelY" },
+    { "type": "f32", "symbol": "accelZ" },
+    { "type": "f32", "symbol": "gyroX" },
+    { "type": "f32", "symbol": "gyroY" },
+    { "type": "f32", "symbol": "gyroZ" }
+  ],
+  "HighIMUValues": [
+    { "type": "f32", "symbol": "accelX" },
+    { "type": "f32", "symbol": "accelY" },
+    { "type": "f32", "symbol": "accelZ" }
+  ],
   "DutyCycle": [
     { "type": "f32", "symbol": "gemsDutyCycle" }
   ],
@@ -285,7 +298,9 @@
     {"type": "f32", "symbol": "aziPos"},
     {"type": "f32", "symbol": "aziRefPos"},
     {"type": "f32", "symbol": "aziVel"},
-    {"type": "f32", "symbol": "aziRefVel"}
+    {"type": "f32", "symbol": "aziRefVel"},
+    {"type": "f32", "symbol": "elvPower"},
+    {"type": "f32", "symbol": "aziPower"}
   ],
   "TrackingState": [
     {"type": "f32", "symbol": "XPos"},
