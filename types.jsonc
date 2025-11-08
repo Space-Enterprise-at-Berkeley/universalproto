@@ -258,6 +258,9 @@
   "MagFillReadLevel": [
     {"type": "f32", "symbol": "PistonDistance"}
   ],
+  "MagFillCalibrate": [
+    {"type": "u32", "symbol": "calibration"}
+  ],
   "FCTemperature": [
     {"type": "f32", "symbol": "temp"}
   ],
@@ -310,10 +313,12 @@
     {"type": "f32", "symbol": "elvRefPos"},
     {"type": "f32", "symbol": "elvVel"},
     {"type": "f32", "symbol": "elvRefVel"},
+    {"type": "f32", "symbol": "elvPower"},
     {"type": "f32", "symbol": "aziPos"},
     {"type": "f32", "symbol": "aziRefPos"},
     {"type": "f32", "symbol": "aziVel"},
-    {"type": "f32", "symbol": "aziRefVel"}
+    {"type": "f32", "symbol": "aziRefVel"},
+    {"type": "f32", "symbol": "aziPower"}
   ],
   "TrackingState": [
     {"type": "f32", "symbol": "XPos"},

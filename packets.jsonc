@@ -456,6 +456,13 @@
     "writes": [ "MF" ]
   },
   {
+    "id": 82,
+    "name": "MagFillCalibrate",
+    "payload": "MagFillCalibrate",
+    "reads": [ "MF" ],
+    "writes": [ "GD*" ]
+  },
+  {
     "id": 7,
     "name": "FCTemperature",
     "payload": "FCTemperature",

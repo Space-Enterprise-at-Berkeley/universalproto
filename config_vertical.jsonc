@@ -2,8 +2,8 @@
   "version": 1,
   "deviceIds": {
     "AC_1": 11,
-    //"AC_2": 12,
-    "AC_3": 13,
+    "AC_2": 12,
+    //"AC_3": 13,
     "LC_1": 21,
     // "LC_2": 22,
     "PT_1": 31,
@@ -12,12 +12,12 @@
     //"PT_HAD": 34,
     "CF_NOS": 42,
     // "CF_IPA": 43,
-    "TC_1": 51,
-    "TC_2": 52,
-    "TC_3": 53,
+    //"TC_1": 51,
+    //"TC_2": 52,
+    //"TC_3": 53,
     "MF" : 61,
     //"TC_4": 54,
-    //"ER_IPA": 71
+    "ER_IPA": 71,
     "FC_1": 81,
     "RT_1": 91
   },
@@ -32,11 +32,11 @@
     },
     {
       "channel": 2,
-      "measure": "AC_NOS_MAIN"
+      "measure": "AC_PRESS_POPPET"
     },
     {
       "channel": 3,
-      "measure": "AC_IPA_MAIN"
+      "measure": "AC_VENT_POPPET"
     },
     {
       "channel": 4,
@@ -47,7 +47,7 @@
       "measure": "AC_NOS_EMERGENCY_VENT"
     }
   ],
-  "AC_3": [
+  "AC_2": [
     {
       "channel": 0,
       "measure": "AC_NOS_GEMS"
