@@ -158,7 +158,7 @@
     "name": "BaroValues",
     "payload": "BaroValues",
     "reads": [ "GD*" ],
-    "writes": [ "CFC*" ]
+    "writes": [ "FC*" ]
   },
   {
     "id": 6,
@@ -473,6 +473,13 @@
     "id": 9,
     "name": "HighIMUValues",
     "payload": "HighIMUValues",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 10,
+    "name": "GPSValues",
+    "payload": "GPSValues",
     "reads": [ "GD*" ],
     "writes": [ "FC*" ]
   },
