@@ -45,6 +45,10 @@
     {
       "channel": 5,
       "measure": "AC_NOS_EMERGENCY_VENT"
+    },
+    {
+      "channel": 6,
+      "measure": "AC_NOS_DRAIN"
     }
   ],
   "AC_2": [
@@ -53,11 +57,11 @@
       "measure": "AC_NOS_GEMS"
     },
     {
-      "channel": 1,
+      "channel": 3,
       "measure": "AC_NOS_FILL"
     },
     {
-      "channel": 2,
+      "channel": 5,
       "measure": "AC_NOS_LINE_VENT"
     }
   ],
