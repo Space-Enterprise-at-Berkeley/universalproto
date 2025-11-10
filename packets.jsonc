@@ -484,6 +484,13 @@
     "writes": [ "FC*" ]
   },
   {
+    "id": 10,
+    "name": "GPSValues",
+    "payload": "GPSValues",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
     "id": 150,
     "name": "DummyData1s",
     "payload": "DummyData1s",
