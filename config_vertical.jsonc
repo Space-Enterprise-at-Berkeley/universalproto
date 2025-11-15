@@ -63,6 +63,10 @@
     {
       "channel": 5,
       "measure": "AC_NOS_LINE_VENT"
+    },
+    {
+      "channel": 7,
+      "measure": "AC_NOS_DRAIN"
     }
   ],
   "PT_1": [
