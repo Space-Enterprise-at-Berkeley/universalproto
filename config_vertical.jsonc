@@ -49,6 +49,10 @@
     {
       "channel": 6,
       "measure": "AC_NOS_RQD"
+    },
+    {
+      "channel": 7,
+      "measure": "AC_IPA_STATIC_PRESS"
     }
   ],
   "AC_2": [
