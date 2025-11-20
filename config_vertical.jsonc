@@ -49,6 +49,10 @@
     {
       "channel": 6,
       "measure": "AC_NOS_RQD"
+    },
+    {
+      "channel": 7,
+      "measure": "AC_IPA_STATIC_PRESS"
     }
   ],
   "AC_2": [
@@ -63,6 +67,10 @@
     {
       "channel": 5,
       "measure": "AC_NOS_LINE_VENT"
+    },
+    {
+      "channel": 7,
+      "measure": "AC_NOS_DRAIN"
     }
   ],
   "PT_1": [
