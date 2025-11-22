@@ -103,12 +103,8 @@
       "measure": "PT_NOS_INJECTOR" // Pneumatics PT
     },
     {
-      "channel": 4,
-      "measure": "PT_NOS_TANK"
-    },
-    {
       "channel": 5,
-      "measure": "PT_IPA_TANK"
+      "measure": "PT_NOS_TANK"
     },
     {
       "channel": 7,
