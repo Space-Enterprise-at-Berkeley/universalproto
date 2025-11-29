@@ -554,6 +554,13 @@
     "writes": [ "GD*" ]
   },
   {
+    "id": 114,
+    "name": "FCEnterP900ConfigMode",
+    "payload": null,
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  }
+  {
     "id": 1,
     "name": "RTRotatorState",
     "payload": "RotatorState",
