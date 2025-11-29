@@ -556,10 +556,10 @@
   {
     "id": 114,
     "name": "FCEnterP900ConfigMode",
-    "payload": null,
+    "payload": "EnableDisable",
     "reads": [ "FC*" ],
     "writes": [ "GD*" ]
-  }
+  },
   {
     "id": 1,
     "name": "RTRotatorState",
