@@ -473,8 +473,8 @@
     "id": 8,
     "name": "LowIMUValues",
     "payload": "LowIMUValues",
-    "reads": [ "GD*" ],
-    "writes": [ "FC*", "RT*" ]
+    "reads": [ "GD*", "RT*"],
+    "writes": [ "FC*"]
   },
   {
     "id": 9,
@@ -487,8 +487,8 @@
     "id": 10,
     "name": "GPSValues",
     "payload": "GPSValues",
-    "reads": [ "GD*" ],
-    "writes": [ "FC*", "RT*" ]
+    "reads": [ "GD*", "RT*"],
+    "writes": [ "FC*"]
   },
   {
     "id": 150,
