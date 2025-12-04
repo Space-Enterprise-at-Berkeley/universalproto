@@ -491,6 +491,13 @@
     "writes": [ "FC*"]
   },
   {
+    "id": 11,
+    "name": "GPSExtraValues",
+    "payload": "GPSExtraValues",
+    "reads": [ "GD*", "RT*"],
+    "writes": [ "FC*" ]
+  },
+  {
     "id": 150,
     "name": "DummyData1s",
     "payload": "DummyData1s",
