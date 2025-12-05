@@ -164,7 +164,8 @@
   "FCHealth": [
     { "type": "u8", "symbol": "runcamEnabled" },
     { "type": "u32", "symbol": "avgTaskDelay" },
-    { "type": "u32", "symbol": "blackboxWritePointer"}
+    { "type": "u32", "symbol": "blackboxWritePointer"},
+    { "type": "u8", "symbol": "radioEnabled" }
   ],
   "DutyCycle": [
     { "type": "f32", "symbol": "gemsDutyCycle" }
