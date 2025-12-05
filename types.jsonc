@@ -161,6 +161,11 @@
       { "type": "f32", "symbol": "ATTheading" },
       { "type": "f32", "symbol": "groundSpeed" }
   ],
+  "FCHealth": [
+    { "type": "u8", "symbol": "runcamEnabled" },
+    { "type": "u32", "symbol": "avgTaskDelay" },
+    { "type": "u32", "symbol": "blackboxWritePointer"}
+  ],
   "DutyCycle": [
     { "type": "f32", "symbol": "gemsDutyCycle" }
   ],
