@@ -548,8 +548,8 @@
   },
   {
     "id": 111,
-    "name": "FCEraseAndStartRecordingBB",
-    "payload": null,
+    "name": "FCEnableBB",
+    "payload": "EnableDisable",
     "reads": [ "FC*" ],
     "writes": [ "GD*" ]
   },
