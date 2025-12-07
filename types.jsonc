@@ -318,7 +318,13 @@
     {"type": "f32", "symbol": "aziRefPos"},
     {"type": "f32", "symbol": "aziVel"},
     {"type": "f32", "symbol": "aziRefVel"},
-    {"type": "f32", "symbol": "aziPower"}
+    {"type": "f32", "symbol": "aziPower"},
+    {"type": "u8", "symbol": "enableState"},
+    {"type": "u8", "symbol": "elvEncoderFault"},
+    {"type": "u8", "symbol": "aziEncoderFault"},
+    {"type": "f32", "symbol": "gpsRate"},
+    {"type": "f32", "symbol": "accelRate"},
+    {"type": "u8", "symbol": "launchDetectState"}
   ],
   "TrackingState": [
     {"type": "f32", "symbol": "XPos"},
