@@ -491,6 +491,20 @@
     "writes": [ "FC*"]
   },
   {
+    "id": 11,
+    "name": "GPSExtraValues",
+    "payload": "GPSExtraValues",
+    "reads": [ "GD*", "RT*"],
+    "writes": [ "FC*" ]
+  },
+  {
+    "id": 12,
+    "name": "FCHealth",
+    "payload": "FCHealth",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
     "id": 150,
     "name": "DummyData1s",
     "payload": "DummyData1s",
@@ -534,8 +548,8 @@
   },
   {
     "id": 111,
-    "name": "FCEraseAndStartRecordingBB",
-    "payload": null,
+    "name": "FCEnableBB",
+    "payload": "EnableDisable",
     "reads": [ "FC*" ],
     "writes": [ "GD*" ]
   },

@@ -147,16 +147,27 @@
     { "type": "f32", "symbol": "latitude" },
     { "type": "f32", "symbol": "longitude" },
     { "type": "f32", "symbol": "altitude" },
-    { "type": "u8", "symbol": "siv" },
     { "type": "u32", "symbol": "horizontalAccuracy" },
     { "type": "u32", "symbol": "verticalAccuracy" },
-    { "type": "u32", "symbol": "positionAccuracy" },
     { "type": "f32", "symbol": "heading" },
     { "type": "u32", "symbol": "headingAccuracy" },
-    { "type": "u8", "symbol": "fixType" },
-    { "type": "f32", "symbol": "ATTroll" },
-    { "type": "f32", "symbol": "ATTpitch" },
-    { "type": "f32", "symbol": "ATTheading" }
+    { "type": "u8", "symbol": "fixType" }
+  ],
+  "GPSExtraValues": [
+      { "type": "u8", "symbol": "siv" },
+      { "type": "u32", "symbol": "positionAccuracy" },
+      { "type": "f32", "symbol": "ATTroll" },
+      { "type": "f32", "symbol": "ATTpitch" },
+      { "type": "f32", "symbol": "ATTheading" },
+      { "type": "f32", "symbol": "groundSpeed" }
+  ],
+  "FCHealth": [
+    { "type": "u8", "symbol": "runcamEnabled" },
+    { "type": "u32", "symbol": "avgTaskDelay" },
+    { "type": "u8", "symbol": "blackboxEnabled" },
+    { "type": "u32", "symbol": "blackboxWritePointer"},
+    { "type": "u8", "symbol": "radioEnabled" }
+
   ],
   "DutyCycle": [
     { "type": "f32", "symbol": "gemsDutyCycle" }
