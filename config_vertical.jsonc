@@ -12,7 +12,7 @@
     //"PT_HAD": 34,
     "CF_NOS": 42,
     "CF_IPA": 43,
-    //"TC_1": 51,
+    "TC_1": 51,
     //"TC_2": 52,
     //"TC_3": 53,
     "MF" : 61,
@@ -101,6 +101,10 @@
     {
       "channel": 3,
       "measure": "PT_NOS_INJECTOR" // Pneumatics PT
+    },
+    {
+      "channel": 4,
+      "measure": "PT_IPA_TANK" 
     },
     {
       "channel": 5,
