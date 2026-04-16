@@ -629,5 +629,20 @@
     "payload": null,
     "reads": [ "RT*" ],
     "writes": [ "GD*" ]
+  },
+  {
+    "id":106,
+    "name": "FCEnableBaroCalibration",
+    "payload": "EnableDisable",
+    "reads": [ "FC*" ],
+    "writes": [ "GD*" ]
+  },
+  {
+    "id":107,
+    "name": "AvgBaroValues",
+    "payload": "AvgBaroValues",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
   }
+
 ]
