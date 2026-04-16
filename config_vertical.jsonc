@@ -88,6 +88,10 @@
       "measure": "PT_PNEUMATICS"
     },
     {
+      "channel": 5,
+      "measure": "PT_IPA_TANK"
+    },
+    {
       "channel": 6,
       "measure": "PT_NOS_FILL_LINE"
     }
@@ -102,10 +106,7 @@
       "channel": 3,
       "measure": "PT_NOS_INJECTOR" // Pneumatics PT
     },
-    {
-      "channel": 4,
-      "measure": "PT_IPA_TANK" 
-    },
+    // channel 4 broken?
     {
       "channel": 5,
       "measure": "PT_NOS_TANK"
