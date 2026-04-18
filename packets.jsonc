@@ -564,8 +564,8 @@
     "id": 113,
     "name": "FCEnableRuncamPDB",
     "payload": "EnableDisable",
-    "reads": [ "FC*" ],
-    "writes": [ "GD*" ]
+    "reads": [ "FC*", "SE"],
+    "writes": [ "GD*", "SE"]
   },
   {
     "id": 114,
@@ -634,8 +634,8 @@
     "id":106,
     "name": "FCEnableBaroCalibration",
     "payload": "EnableDisable",
-    "reads": [ "FC*" ],
-    "writes": [ "GD*" ]
+    "reads": [ "FC*", "SE" ],
+    "writes": [ "GD*", "SE"]
   },
   {
     "id":107,
