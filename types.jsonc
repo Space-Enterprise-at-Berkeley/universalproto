@@ -352,5 +352,10 @@
   ],
   "Degrees": [
     {"type": "f32", "symbol": "degrees"}
+  ],
+  "DataAcceptState": [
+    {"type": "f32", "symbol": "GPSAcceptRate"},
+    {"type": "f32", "symbol": "AccelAcceptRate"},
+    {"type": "f32", "symbol": "BaroAcceptRate"}
   ]
 }

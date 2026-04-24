@@ -643,6 +643,12 @@
     "payload": "AvgBaroValues",
     "reads": [ "GD*" ],
     "writes": [ "FC*" ]
+  },
+  {
+    "id":108,
+    "name": "RTDataAcceptState",
+    "payload": "DataAcceptState",
+    "reads": [ "GD*" ],
+    "writes": [ "RT*" ]
   }
-
 ]
