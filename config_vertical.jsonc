@@ -22,10 +22,7 @@
     "RT_1": 91
   },
   "AC_1": [
-    {
-      "channel": 0,
-      "measure": "AC_BURNWIRE"
-    },
+// channel 0 broken
     {
       "channel": 1,
       "measure": "AC_BREAKWIRE"
@@ -48,7 +45,7 @@
     },
     {
       "channel": 6,
-      "measure": "AC_NOS_RQD"
+      "measure": "AC_BURNWIRE"
     }
   ],
   "AC_2": [
