@@ -550,8 +550,8 @@
     "id": 111,
     "name": "FCEnableBB",
     "payload": "EnableDisable",
-    "reads": [ "FC*" ],
-    "writes": [ "GD*" ]
+    "reads": [ "FC*", "SE" ],
+    "writes": [ "GD*", "SE" ]
   },
   {
     "id": 112,
