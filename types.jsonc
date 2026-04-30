@@ -356,6 +356,9 @@
   "DataAcceptState": [
     {"type": "f32", "symbol": "GPSAcceptRate"},
     {"type": "f32", "symbol": "AccelAcceptRate"},
-    {"type": "f32", "symbol": "BaroAcceptRate"}
+    {"type": "f32", "symbol": "BaroAcceptRate"},
+    {"type": "f32", "symbol": "GPSRate"},
+    {"type": "f32", "symbol": "AccelRate"},
+    {"type": "f32", "symbol": "BaroRate"}
   ]
 }
