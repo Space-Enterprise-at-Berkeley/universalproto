@@ -505,6 +505,13 @@
     "writes": [ "FC*" ]
   },
   {
+    "id": 13,
+    "name": "GPSSatInfo",
+    "payload": "GPSSatInfo",
+    "reads": [ "GD*" ],
+    "writes": [ "FC*" ]
+  },
+  {
     "id": 150,
     "name": "DummyData1s",
     "payload": "DummyData1s",

@@ -158,11 +158,11 @@
     { "type": "u8", "symbol": "siv" }
   ],
   "GPSExtraValues": [
-      { "type": "u32", "symbol": "positionAccuracy" },
-      { "type": "f32", "symbol": "ATTroll" },
-      { "type": "f32", "symbol": "ATTpitch" },
-      { "type": "f32", "symbol": "ATTheading" },
-      { "type": "f32", "symbol": "groundSpeed" }
+    { "type": "u32", "symbol": "positionAccuracy" },
+    { "type": "f32", "symbol": "ATTroll" },
+    { "type": "f32", "symbol": "ATTpitch" },
+    { "type": "f32", "symbol": "ATTheading" },
+    { "type": "f32", "symbol": "groundSpeed" }
   ],
   "FCHealth": [
     { "type": "u8", "symbol": "runcamEnabled" },
@@ -170,6 +170,12 @@
     { "type": "u8", "symbol": "blackboxEnabled" },
     { "type": "u32", "symbol": "blackboxWritePointer"},
     { "type": "u8", "symbol": "radioEnabled" }
+  ],
+  "GPSSatInfo": [
+    { "type": "u8", "symbol": "siv" },
+    { "array": 32, "type": "u8", "symbol": "gnssID", "channel": false },
+    { "array": 32, "type": "u8", "symbol": "svID", "channel": false },
+    { "array": 32, "type": "u8", "symbol": "cno", "channel": false }
   ],
   "DutyCycle": [
     { "type": "f32", "symbol": "gemsDutyCycle" }
