@@ -173,9 +173,9 @@
   ],
   "GPSSatInfo": [
     { "type": "u8", "symbol": "siv" },
-    { "array": 32, "type": "u8", "symbol": "gnssID", "channel": false },
-    { "array": 32, "type": "u8", "symbol": "svID", "channel": false },
-    { "array": 32, "type": "u8", "symbol": "cno", "channel": false }
+    { "array": 20, "type": "u8", "symbol": "gnssID", "channel": false },
+    { "array": 20, "type": "u8", "symbol": "svID", "channel": false },
+    { "array": 20, "type": "u8", "symbol": "cno", "channel": false }
   ],
   "DutyCycle": [
     { "type": "f32", "symbol": "gemsDutyCycle" }
