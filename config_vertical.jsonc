@@ -90,7 +90,7 @@
     },
     {
       "channel": 6,
-      "measure": "PT_NOS_FILL_LINE"
+      "measure": "PT_CHAMBER"
     }
   ],
   "PT_2": [
@@ -110,7 +110,7 @@
     },
     {
       "channel": 7,
-      "measure": "PT_CHAMBER"
+      "measure": "PT_NOS_FILL_LINE"
     }
   ],
   "TC_1": [
