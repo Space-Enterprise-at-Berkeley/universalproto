@@ -74,15 +74,15 @@
     // channel 0 broken
     {
       "channel": 0,
-      "measure": "PT_NOS_POPPET" // NOS Poppet Press PT
+      "measure": "PT_NOS_POPPET_UPSTREAM" // NOS Poppet Press PT
     },
     {
       "channel": 3,
-      "measure": "PT_IPA_POPPET" // IPA Poppet Press PT
+      "measure": "PT_IPA_POPPET_UPSTREAM" // IPA Poppet Press PT
     },
     {
       "channel": 4,
-      "measure": "PT_PNEUMATICS"
+      "measure": "PT_NOS_POPPET_DOWNSTREAM"
     },
     {
       "channel": 5,
@@ -91,6 +91,10 @@
     {
       "channel": 6,
       "measure": "PT_NOS_FILL_LINE"
+    },
+    {
+      "channel": 7,
+      "measure": "PT_IPA_POPPET_DOWNSTREAM"
     }
   ],
   "PT_2": [
